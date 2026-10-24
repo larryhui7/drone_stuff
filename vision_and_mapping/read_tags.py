@@ -79,7 +79,8 @@ class TelloCommands:
                 return self.sock.recv(1024).decode(errors="replace").strip()
             except socket.timeout:
                 continue
-        raise SystemExit(f"no reply to {cmd!r}: is this computer on the drone's TELLO-XXXXXX Wi-Fi?")
+        raise SystemExit(
+            f"no reply to {cmd!r}: is this computer on the drone's TELLO-XXXXXX Wi-Fi?")
 
 
 def tello_frames(record: Path | None):
@@ -91,7 +92,8 @@ def tello_frames(record: Path | None):
     from tello_calibration.video.stream import VideoReceiver
 
     link = TelloCommands()
-    print(f"[read_tags] command -> {link.send('command')}, battery {link.send('battery?')}%", flush=True)
+    print(
+        f"[read_tags] command -> {link.send('command')}, battery {link.send('battery?')}%", flush=True)
     video = VideoReceiver("0.0.0.0")
     video.start()
     print(f"[read_tags] streamon -> {link.send('streamon')}", flush=True)
@@ -103,7 +105,8 @@ def tello_frames(record: Path | None):
             frame, frame_id, _ = video.get_latest()
             now = time.monotonic()
             if now - last_ping > 5.0:           # keep the SDK session alive, report battery
-                print(f"[read_tags] battery {link.send('battery?')}%", flush=True)
+                print(
+                    f"[read_tags] battery {link.send('battery?')}%", flush=True)
                 last_ping = now
             if frame is None or frame_id == last_id:
                 if now - last_new > 3.0:
@@ -118,7 +121,8 @@ def tello_frames(record: Path | None):
                 if writer is None:
                     record.parent.mkdir(parents=True, exist_ok=True)
                     h, w = frame.shape[:2]
-                    writer = cv2.VideoWriter(str(record), cv2.VideoWriter_fourcc(*"mp4v"), 30.0, (w, h))
+                    writer = cv2.VideoWriter(
+                        str(record), cv2.VideoWriter_fourcc(*"mp4v"), 30.0, (w, h))
                 writer.write(frame)
             yield now - t0, frame, f"frame {frame_id}"
             cv2.imshow("read_tags", frame)
@@ -137,21 +141,31 @@ def tello_frames(record: Path | None):
 
 
 def main() -> None:
-    ap = argparse.ArgumentParser(description=__doc__, formatter_class=argparse.RawDescriptionHelpFormatter)
-    ap.add_argument("source", type=Path, nargs="?", help="image, directory of images, or video")
-    ap.add_argument("--tello", action="store_true", help="read the live camera of the connected Tello")
-    ap.add_argument("--record", type=Path, help="with --tello: also save the video here")
-    ap.add_argument("--drone", default="tello_1", help="camera calibration config/camera/<drone>.yaml")
-    ap.add_argument("--fps", type=float, default=30.0, help="frame rate for image directories")
-    ap.add_argument("--filter", action="store_true", help="also print the Kalman estimate (FilteredPositioner)")
-    ap.add_argument("--all-tags", action="store_true", help="print every detection, rejected ones too")
+    ap = argparse.ArgumentParser(
+        description=__doc__, formatter_class=argparse.RawDescriptionHelpFormatter)
+    ap.add_argument("source", type=Path, nargs="?",
+                    help="image, directory of images, or video")
+    ap.add_argument("--tello", action="store_true",
+                    help="read the live camera of the connected Tello")
+    ap.add_argument("--record", type=Path,
+                    help="with --tello: also save the video here")
+    ap.add_argument("--drone", default="tello_1",
+                    help="camera calibration config/camera/<drone>.yaml")
+    ap.add_argument("--fps", type=float, default=30.0,
+                    help="frame rate for image directories")
+    ap.add_argument("--filter", action="store_true",
+                    help="also print the Kalman estimate (FilteredPositioner)")
+    ap.add_argument("--all-tags", action="store_true",
+                    help="print every detection, rejected ones too")
     args = ap.parse_args()
     if args.tello == (args.source is not None):
         ap.error("give a source file/directory or --tello, not both")
 
-    loc = FilteredPositioner(args.drone) if args.filter else Positioner(args.drone)
+    loc = FilteredPositioner(
+        args.drone) if args.filter else Positioner(args.drone)
     raw_loc = loc.positioner if args.filter else loc
-    source = tello_frames(args.record) if args.tello else frames(args.source, args.fps)
+    source = tello_frames(args.record) if args.tello else frames(
+        args.source, args.fps)
     try:
         run(source, loc, raw_loc, args)
     except KeyboardInterrupt:
@@ -170,7 +184,8 @@ def run(source, loc, raw_loc, args) -> None:
         if args.all_tags:
             gray = cv2.cvtColor(frame, cv2.COLOR_BGR2GRAY)
             for obs in raw_loc.detector.detect(gray):
-                state = "ok" if obs.accepted else "rejected: " + ", ".join(obs.reasons)
+                state = "ok" if obs.accepted else "rejected: " + \
+                    ", ".join(obs.reasons)
                 dist = "?" if obs.distance_m is None else f"{obs.distance_m:.2f} m"
                 mapped = "mapped" if obs.tag_id in raw_loc.tag_map.poses else "NOT in map"
                 print(f"{label}:   tag {obs.tag_id} {dist} margin {obs.decision_margin:.0f} "

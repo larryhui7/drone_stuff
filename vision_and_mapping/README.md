@@ -76,3 +76,20 @@ The sim places the room with `env.tag10_height`, the height of tag 10's **centre
 floor (the map has no floor). Measure it with a tape and pass it to training and recording,
 e.g. `env.tag10_height=1.22`. CLAUDE.md and the shipped `peer_qualified_84M` checkpoint
 config use 1.22 m (~48 in, measured); older notes assume 1.2 m. Re-measure if the tag moves.
+
+## Keyboard flight + object detection: `teleop_detect.py`
+
+**This one flies.** Join the drone's Wi-Fi, run it, click the video window:
+`t` take off, `space` land, `w/s` forward/back, `a/d` left/right, `q/e` up/down,
+`z/c` turn, `esc` land and quit, `backspace` emergency motor stop. With no key held the
+drone hovers; Ctrl+C, an error or closing the window lands it.
+
+```bash
+python -u vision_and_mapping/teleop_detect.py --speed 30
+```
+
+Detection (person, drone, common room objects) runs YOLO-World with a baked vocabulary,
+`models/tello_world.pt` (26 MB, ~40 fps on Apple-silicon GPU, own thread). Re-bake with
+different classes via `--bake --classes ...` (needs CLIP:
+`pip install git+https://github.com/ultralytics/CLIP.git`). Weights in `models/` are
+git-ignored.
