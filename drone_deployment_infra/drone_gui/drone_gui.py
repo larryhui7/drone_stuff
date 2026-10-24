@@ -4,6 +4,7 @@
   ../../.venv/bin/python -u drone_gui.py            # then open http://127.0.0.1:8780/
   ../../.venv/bin/python -u drone_gui.py --port 8781
   ../../.venv/bin/python -u drone_gui.py --sim 8    # 8 simulated drones, no hardware
+  ../../.venv/bin/python -u drone_gui.py --spot     # + spot drones in defenders' cameras
 
 Shows every plugged-in dongle and its drone (link, battery, height), each drone's
 live camera with AprilTags outlined, and per-drone Connect / Take off / Land /
@@ -266,9 +267,16 @@ def main() -> int:
     parser.add_argument("--port", type=int, default=8780)
     parser.add_argument("--sim", type=int, default=0, metavar="N",
                         help="run N simulated drones instead of real dongles (GUI testing)")
+    parser.add_argument("--spot", nargs="?", const="default", metavar="MODEL",
+                        help="detect drones in the defenders' cameras and publish them as 'seen' for "
+                             "drone_telemetry/track.py (default model: vision_and_mapping/models/tello_world.pt)")
+    parser.add_argument("--spot-conf", type=float, default=0.3, help="detector confidence threshold")
     args = parser.parse_args()
 
     fleet = Fleet(sim=args.sim)
+    if args.spot:
+        from spotter import DEFAULT_MODEL, Spotter
+        Spotter(fleet, DEFAULT_MODEL if args.spot == "default" else Path(args.spot), args.spot_conf)
     # Localhost only: anyone who can reach this page can fly the drones.
     server = ThreadingHTTPServer(("127.0.0.1", args.port), make_handler(fleet))
     server.daemon_threads = True

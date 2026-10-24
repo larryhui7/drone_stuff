@@ -1,0 +1,10 @@
+# Settings for `swarm_policies.py --run rl:<drones>` (policies/rl.py). Paths are relative
+# to this folder.
+
+adapter: rl_adapter_template.py   # the trained policy's adapter: copy the template, point here
+
+telemetry_port: 9100     # the attackers' drone_gui telemetry arrives here (null = no feed)
+attacker_team: attack    # their drones with this "team" are tracked (null = every drone in the feed)
+
+spot_model: null         # e.g. ../../../vision_and_mapping/models/tello_world.pt: detect attackers
+                         # in our cameras too (needs ultralytics)

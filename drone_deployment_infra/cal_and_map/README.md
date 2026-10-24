@@ -43,6 +43,11 @@ must show tag 10 sharing a view with each other tag (directly or via a chain).
 ```
 python tello_calibrate.py ../recordings/walk.avi
 ```
+To build the map from a `read_tags.py --record` video with the drone's own calibration and
+the `tags.yaml` sizes/gate, in the `map.yaml` format the localizer reads, use instead:
+```
+PYTHONPATH=. python scripts/05_map.py --drone tello_4 --video ../../outputs/walk_tello_4.mp4 --out ../../outputs/map_new.yaml
+```
 
 ## Camera calibration (focal length)
 

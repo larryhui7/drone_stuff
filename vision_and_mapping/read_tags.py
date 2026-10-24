@@ -128,7 +128,8 @@ def tello_frames(record: Path | None, bitrate: int = 2):
                     h, w = frame.shape[:2]
                     writer = cv2.VideoWriter(
                         str(record), cv2.VideoWriter_fourcc(*"mp4v"), 30.0, (w, h))
-                writer.write(frame)
+                writer.write(frame)             # raw, so the recording replays through read_tags
+            frame = frame.copy()                # run() boxes the tags on this copy for the window
             yield now - t0, frame, f"frame {frame_id}"
             cv2.imshow("read_tags", frame)
             if cv2.waitKey(1) & 0xFF == ord("q"):
@@ -181,6 +182,26 @@ def main() -> None:
         source.close()                  # stops the stream and finishes the recording
 
 
+def draw_tags(frame, detections, mapped_ids) -> None:
+    """Box every detected tag in place: green accepted and mapped, orange accepted but not in
+    the map, red rejected by the quality gate (first reason shown)."""
+    for obs in detections:
+        if not obs.accepted:
+            color, note = (0, 0, 255), obs.reasons[0]
+        elif obs.tag_id not in mapped_ids:
+            color, note = (0, 165, 255), "not in map"
+        else:
+            color = (0, 255, 0)
+            note = "" if obs.distance_m is None else f"{obs.distance_m:.2f} m"
+        pts = obs.corners.round().astype(int).reshape(-1, 1, 2)
+        cv2.polylines(frame, [pts], True, color, 2)
+        label = f"{obs.tag_id} {note}".strip()
+        (tw, _), _ = cv2.getTextSize(label, cv2.FONT_HERSHEY_SIMPLEX, 0.6, 2)
+        x = min(int(pts[:, 0, 0].min()), frame.shape[1] - tw)     # keep the label on screen
+        y = max(int(pts[:, 0, 1].min()) - 8, 15)
+        cv2.putText(frame, label, (max(x, 0), y), cv2.FONT_HERSHEY_SIMPLEX, 0.6, color, 2)
+
+
 def run(source, loc, raw_loc, args) -> None:
     seen = fixed = 0
     for t, frame, label in source:
@@ -188,9 +209,12 @@ def run(source, loc, raw_loc, args) -> None:
             print(f"{label}: unreadable", flush=True)
             continue
         seen += 1
-        if args.all_tags:
+        detections = []
+        if args.all_tags or args.tello:
             gray = cv2.cvtColor(frame, cv2.COLOR_BGR2GRAY)
-            for obs in raw_loc.detector.detect(gray):
+            detections = raw_loc.detector.detect(gray)
+        if args.all_tags:
+            for obs in detections:
                 state = "ok" if obs.accepted else "rejected: " + \
                     ", ".join(obs.reasons)
                 dist = "?" if obs.distance_m is None else f"{obs.distance_m:.2f} m"
@@ -209,6 +233,7 @@ def run(source, loc, raw_loc, args) -> None:
             fixed += fix is not None
             print(f"{label}: " + (f"xyz {fix['xyz']} range {fix['range']} m tags {fix['tags']}"
                                   if fix else "no mapped tag"), flush=True)
+        draw_tags(frame, detections, raw_loc.tag_map.poses)   # after locate: boxes must not reach the detector
     print(f"[read_tags] {fixed}/{seen} frames localized", flush=True)
 
 

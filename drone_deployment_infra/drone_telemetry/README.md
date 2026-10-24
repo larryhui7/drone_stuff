@@ -32,6 +32,40 @@ Only one process can bind a port. For several consumers, give each its own port,
 `127.0.0.1:9100, 127.0.0.1:9101`. To feed another laptop, add its LAN address. Don't
 use a `192.168.10.x` address: that subnet belongs to the Tellos' own WiFi.
 
+## Coasting lost attackers: `track.py`
+
+When an attacker loses its tag, drone_gui keeps publishing its last pose with a growing
+`age`. `track.py` sits between drone_gui and the policy. It keeps each attacker's last
+60 s of fixes in the tag-10 room frame (via `config/map.yaml`). Once a pose is older
+than 0.5 s, it predicts the drone flying straight on at the velocity fitted to the last
+second of fixes, so defenders can still intercept.
+
+```bash
+../../.venv/bin/python -u track.py --selftest                           # pass: SELFTEST PASSED
+../../.venv/bin/python -u track.py --listen 9100 --forward 127.0.0.1:9101
+```
+
+Point the policy at `:9101` instead of `:9100`; it needs no code change. Each attacker
+gains `"track"`: room-frame `xyz`, `vel`, `predicted`, `coast_s`, `fix_age`. While
+coasting, its `pose` is the prediction in its last tag's frame, with `age` 0.0,
+`"predicted": true` and the real age in `fix_age` (`--no-fill-pose` turns this off).
+Limits: fixes from tags missing in `map.yaml` are skipped (the relay prints them), a
+grounded drone (`fly` false) doesn't coast, coasting stops at the floor and gives up
+after 60 s.
+
+**Defender sightings.** Start the GUI with `drone_gui.py --spot`. One detector runs over
+the defenders' cameras (`drone_gui/spotter.py`, default model
+`vision_and_mapping/models/tello_world.pt` from `teleop_detect.py --bake`). Each drone box
+becomes a camera-frame position using that drone's calibration: range = focal length ×
+98 mm Tello width / box width, after removing lens distortion. The defender's entry carries
+it as `"seen": {"age", "dets": [{"cam": [x, y, z], "conf"}]}` (camera frame: x right,
+y down, z forward; m). `track.py` places each sighting in the room using the defender's own
+pose. It drops sightings that land on another defender, and adds the rest to the nearest
+attacker whose own tags no longer track it, giving `"source": "seen"` instead of a coast.
+The camera is assumed level, since the pose carries only yaw, and a yaw flip on a small tag
+puts the sighting off to the side. Boxes cut off by the image border, narrower than 12 px or
+beyond 6 m are skipped.
+
 ## Teams
 
 Each drone's team is resolved in this order, first match wins:
@@ -73,6 +107,7 @@ consistent snapshot. It is compact JSON (no spaces). Example:
 | `vel` | Tello `vgx, vgy, vgz` in m/s, in the Tello's own axes |
 | `pose` | last camera pose from an AprilTag, or `null` if the drone has never seen one (see below) |
 | `truth` | `sim` only: the true pose, in the same format as `pose`, for checking |
+| `seen` | `--spot` only, spotting team only, present only when something was detected in the last 1 s: drones in this camera, `{"age", "dets": [{"cam": [x, y, z], "conf"}]}` (see Coasting) |
 
 ### `pose`
 

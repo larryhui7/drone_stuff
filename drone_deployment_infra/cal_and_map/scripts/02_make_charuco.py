@@ -23,7 +23,13 @@ BOARD_DIR = Path(__file__).resolve().parents[1] / "data" / "boards"
 
 
 def screen_resolution() -> tuple[int, int] | None:
-    """Resolution of the primary display from xrandr, or None if unavailable."""
+    """Resolution of the primary display (xrandr; Windows: user32), or None if unavailable."""
+    if sys.platform == "win32":
+        import ctypes
+
+        user32 = ctypes.windll.user32
+        user32.SetProcessDPIAware()     # real pixels, not the display-scaling ones
+        return user32.GetSystemMetrics(0), user32.GetSystemMetrics(1)
     try:
         out = subprocess.run(["xrandr", "--current"], capture_output=True, text=True,
                              check=True).stdout
@@ -66,7 +72,8 @@ def main() -> int:
     log.info("Wrote %s", png)
     log.info("Wrote %s", yml)
     log.info("Next:")
-    log.info("  1. Show it fullscreen at 100%%:  eog -f %s", png)
+    viewer = "open it in the Photos app, F11, zoom 100%" if sys.platform == "win32" else "eog -f"
+    log.info("  1. Show it fullscreen at 100%% (%s): %s", viewer, png)
     log.info("     Do not zoom or resize afterwards; set screen brightness to max.")
     log.info("  2. Measure one square edge with a ruler in mm. For accuracy, measure across")
     log.info("     all %d squares of a row and divide by %d.", spec.squares_x, spec.squares_x)

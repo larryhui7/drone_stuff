@@ -75,12 +75,33 @@ def map_loop(video: VideoReceiver, detector: TagDetector, origin_tag: int) -> Ta
             return builder.build()
 
 
+def map_video(path: Path, detector: TagDetector, origin_tag: int) -> TagMap:
+    """Same map from a recorded video (e.g. read_tags.py --record), no drone or window."""
+    cap = cv2.VideoCapture(str(path))
+    if not cap.isOpened():
+        raise SystemExit(f"cannot open {path}")
+    builder = MapBuilder(origin_tag)
+    frames = linked = 0
+    while True:
+        ok, frame = cap.read()
+        if not ok:
+            break
+        observations = detector.detect(cv2.cvtColor(frame, cv2.COLOR_BGR2GRAY))
+        builder.add_frame(observations)
+        frames += 1
+        linked += sum(o.accepted and o.tvec is not None for o in observations) >= 2
+    cap.release()
+    log.info("%s: %d frames, %d with two or more accepted tags", path, frames, linked)
+    return builder.build()
+
+
 def main() -> int:
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument("--drone", required=True, help="drone name in config/fleet.yaml")
     parser.add_argument("--tags", type=Path, default=CONFIG_DIR / "tags.yaml")
     parser.add_argument("--camera", type=Path, help="default: config/camera/<drone>.yaml")
     parser.add_argument("--out", type=Path, default=CONFIG_DIR / "map.yaml")
+    parser.add_argument("--video", type=Path, help="map from this recording instead of the live drone")
     args = parser.parse_args()
     logging.basicConfig(level=logging.INFO, datefmt="%H:%M:%S",
                         format="%(asctime)s.%(msecs)03d %(levelname)-7s %(name)s: %(message)s")
@@ -95,20 +116,23 @@ def main() -> int:
     detector = TagDetector(tags, K, dist)
     log.info("Origin tag %d. Show it with other tags to link them. 'q' to finish.", tags.origin_tag)
 
-    try:
-        drone, local_ip = resolve_drone(args.drone)
-        with verified_link(drone, local_ip) as link, video_stream(link, local_ip) as video:
-            try:
-                tag_map = map_loop(video, detector, tags.origin_tag)
-            finally:
-                cv2.destroyAllWindows()
-    except IdentityError:
-        return 2
-    except SessionError:
-        return 1
-    except KeyboardInterrupt:
-        log.info("Ctrl+C received")
-        return 0
+    if args.video is not None:
+        tag_map = map_video(args.video, detector, tags.origin_tag)
+    else:
+        try:
+            drone, local_ip = resolve_drone(args.drone)
+            with verified_link(drone, local_ip) as link, video_stream(link, local_ip) as video:
+                try:
+                    tag_map = map_loop(video, detector, tags.origin_tag)
+                finally:
+                    cv2.destroyAllWindows()
+        except IdentityError:
+            return 2
+        except SessionError:
+            return 1
+        except KeyboardInterrupt:
+            log.info("Ctrl+C received")
+            return 0
 
     if tags.origin_tag not in tag_map.poses or len(tag_map.mapped()) < 1:
         log.error("Origin tag %d never seen with others; no map written.", tags.origin_tag)

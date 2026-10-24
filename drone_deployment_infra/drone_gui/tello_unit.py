@@ -51,6 +51,7 @@ MIN_TAKEOFF_BATTERY = 20   # %, refuse takeoff below this
 LAND_BATTERY = 10          # %, auto-land in flight below this
 MAX_FLIGHT_S = 60.0        # auto mode lands after this long airborne
 TAG_FRESH_S = 0.4          # a tag sighting older than this counts as lost
+SEEN_FRESH_S = 1.0         # spotted drones older than this are left out of telemetry
 SEARCH_AFTER_S = 1.0       # lost this long -> slow yaw sweep in place
 SEARCH_YAW = 20            # rc yaw while sweeping
 SEARCH_LEG_S = 2.5         # seconds per left/right sweep leg
@@ -103,8 +104,8 @@ def load_tag_sizes() -> dict[int, float]:
     return {int(k): float(v) / 1000.0 for k, v in (cfg.get("sizes_mm") or {}).items() if v}
 
 
-def load_camera(drone: str) -> tuple[np.ndarray, bool]:
-    """(K at 960x720, provisional?) for config/camera/<tello_x>.yaml, else tello_3's."""
+def load_camera(drone: str) -> tuple[np.ndarray, np.ndarray, bool]:
+    """(K at 960x720, distortion, provisional?) for config/camera/<tello_x>.yaml, else tello_3's."""
     path = CONFIG / "camera" / f"{drone.lower().replace('-', '_')}.yaml"
     provisional = not path.exists()
     if provisional:
@@ -112,7 +113,8 @@ def load_camera(drone: str) -> tuple[np.ndarray, bool]:
     text = path.read_text()
     data = yaml.safe_load(text)
     provisional = provisional or "PROVISIONAL" in text
-    return np.asarray(data["camera_matrix"], dtype=float), provisional
+    dist = np.asarray(data.get("dist_coeffs") or [0.0] * 5, dtype=float)
+    return np.asarray(data["camera_matrix"], dtype=float), dist, provisional
 
 
 class Drone:
@@ -122,7 +124,7 @@ class Drone:
         self.drone = drone                    # registry name, '' when unassigned
         self.video_port = video_port
         self.tag_sizes = tag_sizes
-        self.K, self.provisional_cam = load_camera(drone or "unknown")
+        self.K, self.dist, self.provisional_cam = load_camera(drone or "unknown")
 
         # Link / telemetry
         self.ssid = ""
@@ -144,6 +146,7 @@ class Drone:
         self.tags_t = 0.0
         self._jpeg: tuple[float, bytes] | None = None
         self.pose: dict | None = None         # last camera pose in a tag frame, kept while stale
+        self.seen: dict | None = None         # drones spotted in this camera (spotter.py, --spot)
 
         # Flight
         self.flying = False
@@ -550,9 +553,13 @@ class Drone:
         if self.pose:
             pose = {k: v for k, v in self.pose.items() if k != "stamp"}
             pose["age"] = round(time.time() - self.pose["stamp"], 2)
-        return {"name": self.name, "slot": slot, "team": team, "link": self.link, "fly": self.flying,
-                "mode": self.busy or self.mode, "bat": self.battery, "h": self.height,
-                "tof": self.tof, "vel": self.vel, "pose": pose}
+        entry = {"name": self.name, "slot": slot, "team": team, "link": self.link, "fly": self.flying,
+                 "mode": self.busy or self.mode, "bat": self.battery, "h": self.height,
+                 "tof": self.tof, "vel": self.vel, "pose": pose}
+        seen = self.seen
+        if seen and seen["dets"] and time.time() - seen["stamp"] < SEEN_FRESH_S:
+            entry["seen"] = {"age": round(time.time() - seen["stamp"], 2), "dets": seen["dets"]}
+        return entry
 
     def status(self) -> dict:
         now = time.time()

@@ -14,11 +14,13 @@ import logging
 import time
 from collections.abc import Iterator
 from contextlib import contextmanager
+from dataclasses import replace
 
 from tello_calibration.comms.identity import check_serial, check_wifi
 from tello_calibration.comms.tello_link import CMD_PORT, TelloLink, TelloTimeoutError
 from tello_calibration.utils.config import DroneConfig, DroneConfigError, load_drone_config
-from tello_calibration.utils.net import TELLO_IP, TelloNetworkError, active_wifi, resolve_local_ip
+from tello_calibration.utils.net import (TELLO_IP, TelloNetworkError, active_wifi, resolve_local_ip,
+                                         tello_iface)
 from tello_calibration.video.stream import VideoReceiver
 
 log = logging.getLogger("tello_calibration.session")
@@ -46,6 +48,7 @@ def resolve_drone(name: str) -> tuple[DroneConfig, str]:
     except DroneConfigError as exc:
         report("load drone config", False, str(exc))
         raise SessionError(str(exc)) from exc
+    drone = replace(drone, iface=tello_iface(drone.iface, drone.ssid))   # Windows: adapter by SSID
     log.info("Drone %s: iface=%s ssid=%s bssid=%s serial=%s", drone.name, drone.iface,
              drone.ssid, drone.bssid, drone.serial)
     try:
