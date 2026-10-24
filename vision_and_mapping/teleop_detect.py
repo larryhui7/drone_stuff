@@ -17,7 +17,9 @@ window so it has keyboard focus, then:
 
 A key moves the drone while it is held (OpenCV sees key repeats, so motion continues
 HOLD_S after the last repeat); with no key held the drone gets rc 0 0 0 0 and hovers.
-Ctrl+C, an error or closing the window lands it.
+Ctrl+C, an error or closing the window lands it. If the link drops in flight (no state
+packet for STATE_STALE_S; FLYING.md's motor-interference drops) the keys are ignored and the
+drone lands as soon as the link is back, like the flight engine's LAND_ON_LOSS.
 
 Detection runs on its own thread so control never waits for it. The default model is
 YOLO-World with a vocabulary baked in by --bake (person, drone, common room objects), so
@@ -57,7 +59,8 @@ DRONE_LABELS = {"drone", "quadcopter", "airplane", "kite"}  # shown as "drone"
 TELLO = ("192.168.10.1", 8889)
 RC_PERIOD_S = 0.05        # 20 Hz rc stream
 HOLD_S = 0.6              # a key keeps acting this long after its last (repeat) event
-STATE_STALE_S = 1.0       # no state packet for this long -> link warning on screen
+STATE_STALE_S = 1.0       # no state packet for this long -> link counted as lost
+LAND_ON_LOSS = True       # as core/tello_dual_video.py: a drop in flight lands on reconnect
 
 # key -> (axis index in rc a b c d, sign); a = left/right, b = fwd/back, c = up/down, d = yaw
 MOVES = {ord("a"): (0, -1), ord("d"): (0, 1), ord("w"): (1, 1), ord("s"): (1, -1),
@@ -224,14 +227,29 @@ def fly(args: argparse.Namespace) -> None:
     print(f"[teleop] connected, battery {tello.ask('battery?')}%", flush=True)
     video = VideoReceiver("0.0.0.0")
     video.start()
+    # Tello EDU: a lower bitrate loses fewer packets (green frames); keeps 960x720.
+    print(f"[teleop] setbitrate {args.bitrate} -> {tello.ask(f'setbitrate {args.bitrate}')}", flush=True)
     print(f"[teleop] streamon -> {tello.ask('streamon')}", flush=True)
     detector = None if args.no_detect else Detector(args.model, args.conf, args.imgsz)
 
     status = {"msg": "on the ground: t to take off"}
+    flight = {"flying": False, "lost": False, "landing": False, "taking_off": False}
 
     def done(cmd: str, result: str | None) -> None:
         status["msg"] = f"{cmd} -> {result}"
         print(f"[teleop] {cmd} -> {result}", flush=True)
+        if result == "ok":
+            flight["flying"] = cmd == "takeoff"
+        if cmd == "takeoff":
+            flight["taking_off"] = False
+        if cmd == "land":
+            flight["landing"] = False
+
+    def land(reason: str) -> None:
+        held.clear()
+        flight["landing"] = True
+        status["msg"] = reason
+        tello.ask_async("land", 20.0, done)
 
     held = {}                 # key -> monotonic time of its last event
     last_rc, last_id, shown = 0.0, 0, False
@@ -241,17 +259,28 @@ def fly(args: argparse.Namespace) -> None:
             key = cv2.waitKey(5)
             now = time.monotonic()
             key = key & 0xFF if key != -1 else -1
-            if key in MOVES:
+            stale = now - tello.state_t > STATE_STALE_S
+            if LAND_ON_LOSS and flight["flying"] and stale and not flight["lost"]:
+                flight["lost"] = True
+                held.clear()
+                status["msg"] = "LINK LOST: will land on reconnect"
+                print("[teleop] link lost in flight; landing on reconnect", flush=True)
+            elif flight["lost"] and not stale:
+                flight["lost"] = False
+                print("[teleop] link back: landing", flush=True)
+                land("link back: landing")
+            locked = flight["lost"] or flight["landing"]   # no flying keys until landed
+            if key in MOVES and not locked:
                 held[key] = now
-            elif key == KEY_TAKEOFF:
+            elif key == KEY_TAKEOFF and not (locked or flight["flying"] or flight["taking_off"]):
+                flight["taking_off"] = True         # key repeat must not resend takeoff
                 status["msg"] = "taking off..."
                 tello.ask_async("takeoff", 20.0, done)
             elif key == KEY_LAND:
-                held.clear()
-                status["msg"] = "landing..."
-                tello.ask_async("land", 20.0, done)
+                land("landing...")
             elif key in KEY_EMERGENCY:
                 tello.send("emergency")
+                flight.update(flying=False, lost=False, landing=False, taking_off=False)
                 status["msg"] = "EMERGENCY: motors stopped"
                 print("[teleop] EMERGENCY sent", flush=True)
             elif key == KEY_QUIT:
@@ -282,7 +311,6 @@ def fly(args: argparse.Namespace) -> None:
                    status["msg"]]
             if detector is not None:
                 hud.append(f"detect {detector.fps:4.1f} fps, {len(detector.boxes)} objects")
-            stale = now - tello.state_t > STATE_STALE_S
             warn = "LINK: no state from drone" if stale else (
                 "LOW BATTERY: land" if st.get("bat", "100").isdigit() and int(st["bat"]) < 15
                 else None)
@@ -306,6 +334,8 @@ def main() -> None:
     ap = argparse.ArgumentParser(description=__doc__, formatter_class=argparse.RawDescriptionHelpFormatter)
     ap.add_argument("--speed", type=int, default=40, help="rc magnitude per key, 10-100")
     ap.add_argument("--no-detect", action="store_true", help="video and control only")
+    ap.add_argument("--bitrate", type=int, default=2, choices=range(6),
+                    help="video Mbps, 0 = firmware auto (Tello EDU)")
     ap.add_argument("--model", type=Path, help=f"detector weights (default {BAKED.name}, "
                                                f"else {FALLBACK.name})")
     ap.add_argument("--conf", type=float, default=0.3, help="detection confidence threshold")

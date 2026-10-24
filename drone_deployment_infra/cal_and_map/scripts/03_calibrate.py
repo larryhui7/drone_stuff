@@ -45,7 +45,7 @@ from tello_calibration.session import (
     verified_link,
     video_stream,
 )
-from tello_calibration.utils.config import DroneConfig
+from tello_calibration.utils.config import CONFIG_DIR, DroneConfig
 from tello_calibration.utils.sound import beep
 from tello_calibration.video.stream import VideoReceiver
 
@@ -53,7 +53,7 @@ log = logging.getLogger("calibrate")
 
 ROOT = Path(__file__).resolve().parents[1]
 BOARD_DIR = ROOT / "data" / "boards"
-CAMERA_DIR = ROOT / "config" / "camera"
+CAMERA_DIR = CONFIG_DIR / "camera"   # drone_deployment_infra/config/camera, read by the localizer
 EXPECTED_SIZE = (960, 720)
 STATUS_EVERY_S = 2.0
 STALL_WARN_S = 2.0

@@ -12,7 +12,7 @@ laptop would publish for those frames.
     python -u vision_and_mapping/read_tags.py --tello --drone tello_3 --record outputs/walk.mp4
 
 --tello reads the live camera of the drone whose Wi-Fi (TELLO-XXXXXX) this computer is joined
-to. It sends only `command`, `streamon`, `battery?` and `streamoff`, never a
+to. It sends only `command`, `setbitrate`, `streamon`, `battery?` and `streamoff`, never a
 flight command, so carry the drone by hand.
 
 Positions are metres in the map frame: origin at tag 10's centre, x right, y up, z out of
@@ -64,7 +64,8 @@ class TelloCommands:
     """The read-only commands, over the SDK's UDP command port. No flight command exists here."""
 
     ADDR = ("192.168.10.1", 8889)
-    ALLOWED = {"command", "streamon", "streamoff", "battery?"}
+    ALLOWED = {"command", "streamon", "streamoff", "battery?",
+               *(f"setbitrate {n}" for n in range(6))}
 
     def __init__(self) -> None:
         self.sock = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
@@ -83,11 +84,14 @@ class TelloCommands:
             f"no reply to {cmd!r}: is this computer on the drone's TELLO-XXXXXX Wi-Fi?")
 
 
-def tello_frames(record: Path | None):
+def tello_frames(record: Path | None, bitrate: int = 2):
     """(time s, BGR frame, label) from the live Tello camera until Ctrl+C or q in the window.
 
     Video is decoded by cal_and_map's VideoReceiver, which skips the H.264 errors the Tello
     stream has before each keyframe (djitellopy's reader stops at the first one).
+    `bitrate` (Mbps, 1-5; 0 = firmware auto) is set before streamon: a Tello EDU's lower
+    bitrate loses fewer UDP packets, and lost packets are what turn frames green. It keeps
+    the 960x720 size the camera calibrations were fitted at (setresolution would not).
     """
     from tello_calibration.video.stream import VideoReceiver
 
@@ -96,6 +100,7 @@ def tello_frames(record: Path | None):
         f"[read_tags] command -> {link.send('command')}, battery {link.send('battery?')}%", flush=True)
     video = VideoReceiver("0.0.0.0")
     video.start()
+    print(f"[read_tags] setbitrate {bitrate} -> {link.send(f'setbitrate {bitrate}')}", flush=True)
     print(f"[read_tags] streamon -> {link.send('streamon')}", flush=True)
     writer = None
     last_id = 0
@@ -149,6 +154,8 @@ def main() -> None:
                     help="read the live camera of the connected Tello")
     ap.add_argument("--record", type=Path,
                     help="with --tello: also save the video here")
+    ap.add_argument("--bitrate", type=int, default=2, choices=range(6),
+                    help="with --tello: video Mbps, 0 = firmware auto (Tello EDU)")
     ap.add_argument("--drone", default="tello_1",
                     help="camera calibration config/camera/<drone>.yaml")
     ap.add_argument("--fps", type=float, default=30.0,
@@ -164,7 +171,7 @@ def main() -> None:
     loc = FilteredPositioner(
         args.drone) if args.filter else Positioner(args.drone)
     raw_loc = loc.positioner if args.filter else loc
-    source = tello_frames(args.record) if args.tello else frames(
+    source = tello_frames(args.record, args.bitrate) if args.tello else frames(
         args.source, args.fps)
     try:
         run(source, loc, raw_loc, args)

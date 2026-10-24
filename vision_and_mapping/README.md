@@ -82,7 +82,9 @@ config use 1.22 m (~48 in, measured); older notes assume 1.2 m. Re-measure if th
 **This one flies.** Join the drone's Wi-Fi, run it, click the video window:
 `t` take off, `space` land, `w/s` forward/back, `a/d` left/right, `q/e` up/down,
 `z/c` turn, `esc` land and quit, `backspace` emergency motor stop. With no key held the
-drone hovers; Ctrl+C, an error or closing the window lands it.
+drone hovers; Ctrl+C, an error or closing the window lands it. A link drop in flight
+locks the keys and lands the drone on reconnect (as `LAND_ON_LOSS` in the flight engine).
+Video is set to 2 Mbps first (`--bitrate`, Tello EDU) to cut the packet loss behind green frames.
 
 ```bash
 python -u vision_and_mapping/teleop_detect.py --speed 30

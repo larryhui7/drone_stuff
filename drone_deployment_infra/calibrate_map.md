@@ -1,31 +1,38 @@
 # Calibrate & map (tello_calibration)
 
 Commands to calibrate a Tello's camera (focal length) and build / use an AprilTag room
-map in the **tag-10 origin frame**. Everything lives in the `tello_calibration/` package
-and uses its no-takeoff comms allowlist — these scripts never fly the drone.
+map in the **tag-10 origin frame**. Everything lives in `drone_deployment_infra/cal_and_map/`
+(the `tello_calibration` package plus `scripts/`) and uses its no-takeoff comms allowlist —
+these scripts never fly the drone.
 
 Examples use **drone_3** (`tello_3`). Swap `tello_3` for `tello_4` etc.
 
 ## 0. One-time setup
 
-The package is editable-installed into the repo venv, so scripts import cleanly:
+From the repo root, editable-install the package into your venv so scripts import cleanly:
 
 ```bash
-~/action-space/.venv/bin/pip install -e ~/action-space/tello_calibration
+pip install -r drone_deployment_infra/cal_and_map/requirements.txt
+pip install -e drone_deployment_infra/cal_and_map
 ```
 
-Run everything from the package directory with the repo venv:
+Run everything from `cal_and_map/` with that venv's Python:
 
 ```bash
-cd ~/action-space/tello_calibration
-PY=~/action-space/.venv/bin/python
+cd drone_deployment_infra/cal_and_map
+PY=$(which python)          # the venv you installed into
 ```
 
-Config lives in `tello_calibration/config/`:
+Config lives in `drone_deployment_infra/config/` (`../config/` from here), shared with
+`core/positional.py` and the flight engine; `cal_and_map/` has no config of its own:
 - `fleet.yaml` `drones:` — one entry per drone (iface, ssid, bssid). `tello_3` → stick `wlx6c4cbce33375`.
 - `camera/<drone>.yaml` — camera matrix + distortion (focal length = `camera_matrix[0][0]`).
 - `tags.yaml` — `origin_tag: 10`; `sizes_mm` lists every tag to map (1-9 = 132.08 mm, 10 = 571.5 mm).
 - `map.yaml` — the room map (written by step 4).
+
+The live steps (1, 2, 4, 5) find the drone through its USB stick's interface in
+`fleet.yaml`, so they are set up for the Linux rig. On a Mac joined to the drone's Wi-Fi,
+`vision_and_mapping/read_tags.py --tello` gives the live tag/pose view instead.
 
 ## 1. Connect to the drone
 
@@ -45,7 +52,9 @@ $PY scripts/03_calibrate.py --drone tello_3 --square-mm 41.2
 ```
 
 Move the board slowly across the whole frame until coverage passes. It writes
-`config/camera/tello_3.yaml` (the focal length and distortion). Re-run on saved frames:
+`drone_deployment_infra/config/camera/tello_3.yaml` (the focal length and distortion), the
+file `core/positional.py` reads. A plain printed checkerboard works too:
+`vision_and_mapping/calibration.py` (focal length, principal point, distortion, skew, K). Re-run on saved frames:
 
 ```bash
 $PY scripts/03_calibrate.py --from-dir data/calib_tello_3_<timestamp> --fix-k3
@@ -66,7 +75,7 @@ be seen together with the others so they link into one frame.
 ## 4. Build the map (tag-10 frame)
 
 ```bash
-$PY scripts/05_map.py --drone tello_3                  # writes config/map.yaml
+$PY scripts/05_map.py --drone tello_3                  # writes ../config/map.yaml
 ```
 
 Point the drone so the camera sees **tag 10 together with other tags** (two tags in one
@@ -77,18 +86,18 @@ it prints each tag's x/y/z in the tag-10 frame and saves `config/map.yaml`.
 Save to a specific file:
 
 ```bash
-$PY scripts/05_map.py --drone tello_3 --out config/map_room.yaml
+$PY scripts/05_map.py --drone tello_3 --out ../config/map_room.yaml
 ```
 
 ## 5. Localize the drone against the map
 
 ```bash
-$PY scripts/06_localize.py --drone tello_3             # reads config/map.yaml
+$PY scripts/06_localize.py --drone tello_3             # reads ../config/map.yaml
 ```
 
 From any mapped tag in view it prints the drone's position relative to tag 10
 (`drone @ origin x.. y.. z..`), using the nearest tag and reporting the spread when
-several are visible. Use `--map config/map_room.yaml` for a non-default map.
+several are visible. Use `--map ../config/map_room.yaml` for a non-default map.
 
 ## 6. Self-checks (no drone needed)
 

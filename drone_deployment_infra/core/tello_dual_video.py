@@ -56,10 +56,12 @@ TELLO = "192.168.10.1"
 # flight once the link is back, instead of landing -- used to test reconnection.
 LAND_ON_LOSS = True
 # Low-bandwidth video commands sent once per (re)connect before streamon, to help
-# the control link survive motor interference in flight. EMPTY here because this
-# (non-EDU) Tello rejects them ("unknown command"); a Tello EDU accepts e.g.
-# ("setresolution low", "setfps middle", "setbitrate 2").
-VIDEO_SETUP = ()
+# the control link survive motor interference in flight and to lose fewer video
+# packets (lost packets show as green frames). Tello EDU accepts these; a non-EDU
+# Tello replies "unknown command" (harmless, but set this to () for one). Not
+# "setresolution low": it leaves 960x720, the size every config/camera/*.yaml was
+# calibrated at, so tag distances would be wrong.
+VIDEO_SETUP = ("setbitrate 2",)
 # Lost-tag search: if the tag has not been seen for SEARCH_AFTER_S, stop and
 # sweep yaw at SEARCH_YAW, flipping direction (left, then right) every SEARCH_LEG_S.
 SEARCH_AFTER_S = 0.4
