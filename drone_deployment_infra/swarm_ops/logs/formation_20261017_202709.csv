@@ -1,0 +1,879 @@
+t,drone,state,sees,ref,tags,px,py,pz,psi,pos_err,a,b,c,d,height_cm,battery,reason
+1792283231.567,5,CLIMB,False,,[],nan,nan,nan,,,0,0,0,0,10.0,79,no trusted tag in view
+1792283231.567,8,CLIMB,False,,[],nan,nan,nan,,,0,0,0,0,10.0,64,no trusted tag in view
+1792283231.680,5,CLIMB,False,,[],nan,nan,nan,,,0,0,0,0,10.0,79,no trusted tag in view
+1792283231.680,8,CLIMB,False,,[],nan,nan,nan,,,0,0,0,0,10.0,64,no trusted tag in view
+1792283231.730,5,CLIMB,False,,[],nan,nan,nan,,,0,0,0,0,10.0,79,no trusted tag in view
+1792283231.730,8,CLIMB,False,,[],nan,nan,nan,,,0,0,0,0,10.0,64,no trusted tag in view
+1792283231.780,5,CLIMB,False,,[],nan,nan,nan,,,0,0,0,0,10.0,79,no trusted tag in view
+1792283231.780,8,CLIMB,False,,[],nan,nan,nan,,,0,0,0,0,10.0,64,no trusted tag in view
+1792283231.830,5,CLIMB,False,,[],nan,nan,nan,,,0,0,0,0,10.0,79,no trusted tag in view
+1792283231.830,8,CLIMB,False,,[],nan,nan,nan,,,0,0,0,0,10.0,64,no trusted tag in view
+1792283231.880,5,CLIMB,False,,[],nan,nan,nan,,,0,0,0,0,10.0,79,no trusted tag in view
+1792283231.880,8,CLIMB,False,,[],nan,nan,nan,,,0,0,0,0,10.0,64,no trusted tag in view
+1792283231.930,5,CLIMB,False,,[],nan,nan,nan,,,0,0,0,0,10.0,79,no trusted tag in view
+1792283231.930,8,CLIMB,False,,[],nan,nan,nan,,,0,0,0,0,10.0,64,no trusted tag in view
+1792283231.980,5,CLIMB,False,,[],nan,nan,nan,,,0,0,0,0,10.0,79,no trusted tag in view
+1792283231.980,8,CLIMB,False,,[],nan,nan,nan,,,0,0,0,0,10.0,64,no trusted tag in view
+1792283232.030,5,CLIMB,False,,[],nan,nan,nan,,,0,0,0,0,10.0,79,no trusted tag in view
+1792283232.030,8,CLIMB,False,,[],nan,nan,nan,,,0,0,0,0,10.0,64,no trusted tag in view
+1792283232.080,5,CLIMB,False,,[],nan,nan,nan,,,0,0,0,0,10.0,79,no trusted tag in view
+1792283232.080,8,CLIMB,False,,[],nan,nan,nan,,,0,0,0,0,10.0,64,no trusted tag in view
+1792283232.130,5,CLIMB,False,,[],nan,nan,nan,,,0,0,0,0,10.0,79,no trusted tag in view
+1792283232.130,8,CLIMB,False,,[],nan,nan,nan,,,0,0,0,0,10.0,64,no trusted tag in view
+1792283232.181,5,CLIMB,False,,[],nan,nan,nan,,,0,0,0,0,10.0,79,no trusted tag in view
+1792283232.181,8,CLIMB,False,,[],nan,nan,nan,,,0,0,0,0,10.0,64,no trusted tag in view
+1792283232.231,5,CLIMB,False,,[],nan,nan,nan,,,0,0,0,0,10.0,79,no trusted tag in view
+1792283232.231,8,CLIMB,False,,[],nan,nan,nan,,,0,0,0,0,10.0,64,no trusted tag in view
+1792283232.281,5,CLIMB,False,,[],nan,nan,nan,,,0,0,0,0,10.0,79,no trusted tag in view
+1792283232.281,8,CLIMB,False,,[],nan,nan,nan,,,0,0,0,0,10.0,64,no trusted tag in view
+1792283232.331,5,CLIMB,False,,[],nan,nan,nan,,,0,0,0,0,10.0,79,no trusted tag in view
+1792283232.331,8,CLIMB,False,,[],nan,nan,nan,,,0,0,0,0,10.0,64,no trusted tag in view
+1792283232.381,5,CLIMB,False,,[],nan,nan,nan,,,0,0,0,0,10.0,79,no trusted tag in view
+1792283232.381,8,CLIMB,False,,[],nan,nan,nan,,,0,0,0,0,10.0,64,no trusted tag in view
+1792283232.431,5,CLIMB,False,,[],nan,nan,nan,,,0,0,0,0,10.0,79,no trusted tag in view
+1792283232.431,8,CLIMB,False,,[],nan,nan,nan,,,0,0,0,0,10.0,64,no trusted tag in view
+1792283232.481,5,CLIMB,False,,[],nan,nan,nan,,,0,0,0,0,10.0,79,no trusted tag in view
+1792283232.481,8,CLIMB,False,,[],nan,nan,nan,,,0,0,0,0,10.0,64,no trusted tag in view
+1792283232.531,5,CLIMB,False,,[],nan,nan,nan,,,0,0,0,0,10.0,79,no trusted tag in view
+1792283232.531,8,CLIMB,False,,[],nan,nan,nan,,,0,0,0,0,10.0,64,no trusted tag in view
+1792283232.581,5,CLIMB,False,,[],nan,nan,nan,,,0,0,0,0,10.0,79,no trusted tag in view
+1792283232.581,8,CLIMB,False,,[],nan,nan,nan,,,0,0,0,0,10.0,64,no trusted tag in view
+1792283232.631,5,CLIMB,False,,[],nan,nan,nan,,,0,0,0,0,10.0,79,no trusted tag in view
+1792283232.631,8,CLIMB,False,,[],nan,nan,nan,,,0,0,0,0,10.0,64,no trusted tag in view
+1792283232.681,5,CLIMB,False,,[],nan,nan,nan,,,0,0,0,0,10.0,79,no trusted tag in view
+1792283232.681,8,CLIMB,False,,[],nan,nan,nan,,,0,0,0,0,10.0,64,no trusted tag in view
+1792283232.731,5,CLIMB,False,,[],nan,nan,nan,,,0,0,0,0,29.0,79,no trusted tag in view
+1792283232.731,8,CLIMB,False,,[],nan,nan,nan,,,0,0,0,0,17.0,64,no trusted tag in view
+1792283232.782,5,CLIMB,False,,[],nan,nan,nan,,,0,0,0,0,29.0,79,no trusted tag in view
+1792283232.782,8,CLIMB,False,,[],nan,nan,nan,,,0,0,0,0,17.0,64,no trusted tag in view
+1792283232.832,5,CLIMB,False,,[],nan,nan,nan,,,0,0,0,0,29.0,79,no trusted tag in view
+1792283232.832,8,CLIMB,False,,[],nan,nan,nan,,,0,0,0,0,25.0,64,no trusted tag in view
+1792283232.882,5,CLIMB,False,,[],nan,nan,nan,,,0,0,0,0,36.0,79,no trusted tag in view
+1792283232.882,8,CLIMB,False,,[],nan,nan,nan,,,0,0,0,0,25.0,64,no trusted tag in view
+1792283232.932,5,CLIMB,False,,[],nan,nan,nan,,,0,0,0,0,36.0,79,no trusted tag in view
+1792283232.932,8,CLIMB,False,,[],nan,nan,nan,,,0,0,0,0,33.0,64,no trusted tag in view
+1792283232.982,5,CLIMB,False,,[],nan,nan,nan,,,0,0,0,0,41.0,79,no trusted tag in view
+1792283232.982,8,CLIMB,False,,[],nan,nan,nan,,,0,0,0,0,33.0,64,no trusted tag in view
+1792283233.032,5,CLIMB,False,,[],nan,nan,nan,,,0,0,0,0,48.0,79,no trusted tag in view
+1792283233.032,8,CLIMB,False,,[],nan,nan,nan,,,0,0,0,0,38.0,64,no trusted tag in view
+1792283233.082,5,CLIMB,False,,[],nan,nan,nan,,,0,0,0,0,48.0,79,no trusted tag in view
+1792283233.082,8,CLIMB,False,,[],nan,nan,nan,,,0,0,0,0,38.0,64,no trusted tag in view
+1792283233.132,5,CLIMB,False,,[],nan,nan,nan,,,0,0,0,0,48.0,79,no trusted tag in view
+1792283233.132,8,CLIMB,False,,[],nan,nan,nan,,,0,0,0,0,46.0,64,no trusted tag in view
+1792283233.182,5,CLIMB,False,,[],nan,nan,nan,,,0,0,0,0,55.0,79,no trusted tag in view
+1792283233.182,8,CLIMB,False,,[],nan,nan,nan,,,0,0,0,0,46.0,64,no trusted tag in view
+1792283233.232,5,CLIMB,False,,[],nan,nan,nan,,,0,0,0,0,59.0,79,no trusted tag in view
+1792283233.232,8,CLIMB,False,,[],nan,nan,nan,,,0,0,0,0,51.0,64,no trusted tag in view
+1792283233.282,5,CLIMB,False,,[],nan,nan,nan,,,0,0,0,0,59.0,79,no trusted tag in view
+1792283233.282,8,CLIMB,False,,[],nan,nan,nan,,,0,0,0,0,51.0,64,no trusted tag in view
+1792283233.332,5,CLIMB,False,,[],nan,nan,nan,,,0,0,0,0,63.0,79,no trusted tag in view
+1792283233.332,8,CLIMB,False,,[],nan,nan,nan,,,0,0,0,0,56.0,64,no trusted tag in view
+1792283233.382,5,CLIMB,False,,[],nan,nan,nan,,,0,0,0,0,66.0,79,no trusted tag in view
+1792283233.382,8,CLIMB,False,,[],nan,nan,nan,,,0,0,0,0,56.0,64,no trusted tag in view
+1792283233.433,5,CLIMB,False,,[],nan,nan,nan,,,0,0,0,0,66.0,79,no trusted tag in view
+1792283233.433,8,CLIMB,False,,[],nan,nan,nan,,,0,0,0,0,61.0,64,no trusted tag in view
+1792283233.483,5,CLIMB,False,,[],nan,nan,nan,,,0,0,0,0,66.0,79,no trusted tag in view
+1792283233.483,8,CLIMB,False,,[],nan,nan,nan,,,0,0,0,0,61.0,64,no trusted tag in view
+1792283233.533,5,CLIMB,False,,[],nan,nan,nan,,,0,0,0,0,66.0,79,no trusted tag in view
+1792283233.533,8,CLIMB,False,,[],nan,nan,nan,,,0,0,0,0,64.0,64,no trusted tag in view
+1792283233.583,5,CLIMB,False,,[],nan,nan,nan,,,0,0,0,0,69.0,79,no trusted tag in view
+1792283233.583,8,CLIMB,False,,[],nan,nan,nan,,,0,0,0,0,64.0,64,no trusted tag in view
+1792283233.633,5,CLIMB,False,,[],nan,nan,nan,,,0,0,0,0,69.0,79,no trusted tag in view
+1792283233.633,8,CLIMB,False,,[],nan,nan,nan,,,0,0,0,0,64.0,64,no trusted tag in view
+1792283233.683,5,CLIMB,False,,[],nan,nan,nan,,,0,0,0,0,70.0,79,no trusted tag in view
+1792283233.683,8,CLIMB,False,,[],nan,nan,nan,,,0,0,0,0,66.0,64,no trusted tag in view
+1792283233.733,5,CLIMB,False,,[],nan,nan,nan,,,0,0,0,0,71.0,79,no trusted tag in view
+1792283233.733,8,CLIMB,False,,[],nan,nan,nan,,,0,0,0,0,68.0,64,no trusted tag in view
+1792283233.783,5,CLIMB,False,,[],nan,nan,nan,,,0,0,0,0,71.0,79,no trusted tag in view
+1792283233.783,8,CLIMB,False,,[],nan,nan,nan,,,0,0,0,0,68.0,64,no trusted tag in view
+1792283233.833,5,CLIMB,False,,[],nan,nan,nan,,,0,0,0,0,72.0,79,no trusted tag in view
+1792283233.833,8,CLIMB,False,,[],nan,nan,nan,,,0,0,0,0,68.0,64,no trusted tag in view
+1792283233.883,5,CLIMB,False,,[],nan,nan,nan,,,0,0,0,0,72.0,79,no trusted tag in view
+1792283233.883,8,CLIMB,False,,[],nan,nan,nan,,,0,0,0,0,68.0,64,no trusted tag in view
+1792283233.934,5,CLIMB,False,,[],nan,nan,nan,,,0,0,0,0,72.0,79,no trusted tag in view
+1792283233.934,8,CLIMB,False,,[],nan,nan,nan,,,0,0,43,0,68.0,64,no trusted tag in view
+1792283233.984,5,CLIMB,False,,[],nan,nan,nan,,,0,0,0,0,72.0,79,no trusted tag in view
+1792283233.984,8,CLIMB,False,,[],nan,nan,nan,,,0,0,43,0,69.0,64,no trusted tag in view
+1792283234.034,5,CLIMB,False,,[],nan,nan,nan,,,0,0,0,0,73.0,79,no trusted tag in view
+1792283234.034,8,CLIMB,False,,[],nan,nan,nan,,,0,0,43,0,69.0,64,no trusted tag in view
+1792283234.084,5,CLIMB,False,,[],nan,nan,nan,,,0,0,41,0,73.0,79,no trusted tag in view
+1792283234.084,8,CLIMB,False,,[],nan,nan,nan,,,0,0,43,0,69.0,64,no trusted tag in view
+1792283234.134,5,CLIMB,False,,[],nan,nan,nan,,,0,0,41,0,73.0,79,no trusted tag in view
+1792283234.134,8,CLIMB,False,,[],nan,nan,nan,,,0,0,43,0,69.0,64,no trusted tag in view
+1792283234.184,5,CLIMB,False,,[],nan,nan,nan,,,0,0,41,0,73.0,79,no trusted tag in view
+1792283234.184,8,CLIMB,False,,[],nan,nan,nan,,,0,0,43,0,69.0,64,no trusted tag in view
+1792283234.234,5,CLIMB,False,,[],nan,nan,nan,,,0,0,41,0,72.0,79,no trusted tag in view
+1792283234.234,8,CLIMB,False,,[],nan,nan,nan,,,0,0,43,0,69.0,64,no trusted tag in view
+1792283234.284,5,CLIMB,False,,[],nan,nan,nan,,,0,0,41,0,72.0,79,no trusted tag in view
+1792283234.284,8,CLIMB,False,,[],nan,nan,nan,,,0,0,43,0,69.0,64,no trusted tag in view
+1792283234.334,5,CLIMB,False,,[],nan,nan,nan,,,0,0,41,0,73.0,79,no trusted tag in view
+1792283234.334,8,CLIMB,False,,[],nan,nan,nan,,,0,0,43,0,69.0,64,no trusted tag in view
+1792283234.384,5,CLIMB,False,,[],nan,nan,nan,,,0,0,41,0,73.0,79,no trusted tag in view
+1792283234.384,8,CLIMB,False,,[],nan,nan,nan,,,0,0,42,0,70.0,64,no trusted tag in view
+1792283234.435,5,CLIMB,False,,[],nan,nan,nan,,,0,0,41,0,73.0,79,no trusted tag in view
+1792283234.435,8,CLIMB,False,,[],nan,nan,nan,,,0,0,42,0,70.0,64,no trusted tag in view
+1792283234.485,5,CLIMB,False,,[],nan,nan,nan,,,0,0,40,0,74.0,79,no trusted tag in view
+1792283234.485,8,CLIMB,False,,[],nan,nan,nan,,,0,0,42,0,70.0,64,no trusted tag in view
+1792283234.535,5,CLIMB,False,,[],nan,nan,nan,,,0,0,40,0,74.0,79,no trusted tag in view
+1792283234.535,8,CLIMB,False,,[],nan,nan,nan,,,0,0,42,0,70.0,64,no trusted tag in view
+1792283234.585,5,CLIMB,False,,[],nan,nan,nan,,,0,0,40,0,74.0,79,no trusted tag in view
+1792283234.585,8,CLIMB,False,,[],nan,nan,nan,,,0,0,42,0,71.0,64,no trusted tag in view
+1792283234.635,5,CLIMB,False,,[],nan,nan,nan,,,0,0,40,0,74.0,79,no trusted tag in view
+1792283234.635,8,CLIMB,False,,[],nan,nan,nan,,,0,0,42,0,71.0,64,no trusted tag in view
+1792283234.685,5,CLIMB,False,,[],nan,nan,nan,,,0,0,40,0,74.0,79,no trusted tag in view
+1792283234.685,8,CLIMB,False,,[],nan,nan,nan,,,0,0,41,0,72.0,64,no trusted tag in view
+1792283234.735,5,CLIMB,False,,[],nan,nan,nan,,,0,0,40,0,75.0,79,no trusted tag in view
+1792283234.735,8,CLIMB,False,,[],nan,nan,nan,,,0,0,41,0,72.0,64,no trusted tag in view
+1792283234.785,5,CLIMB,False,,[],nan,nan,nan,,,0,0,40,0,75.0,79,no trusted tag in view
+1792283234.785,8,CLIMB,False,,[],nan,nan,nan,,,0,0,41,0,73.0,64,no trusted tag in view
+1792283234.835,5,CLIMB,False,,[],nan,nan,nan,,,0,0,40,0,75.0,79,no trusted tag in view
+1792283234.835,8,CLIMB,False,,[],nan,nan,nan,,,0,0,40,0,74.0,64,no trusted tag in view
+1792283234.885,5,CLIMB,False,,[],nan,nan,nan,,,0,0,40,0,75.0,79,no trusted tag in view
+1792283234.885,8,CLIMB,False,,[],nan,nan,nan,,,0,0,40,0,74.0,64,no trusted tag in view
+1792283234.935,5,CLIMB,False,,[],nan,nan,nan,,,0,0,40,0,75.0,79,no trusted tag in view
+1792283234.935,8,CLIMB,False,,[],nan,nan,nan,,,0,0,40,0,75.0,64,no trusted tag in view
+1792283234.986,5,CLIMB,False,,[],nan,nan,nan,,,0,0,39,0,76.0,79,no trusted tag in view
+1792283234.986,8,CLIMB,False,,[],nan,nan,nan,,,0,0,40,0,75.0,64,no trusted tag in view
+1792283235.036,5,CLIMB,False,,[],nan,nan,nan,,,0,0,39,0,76.0,79,no trusted tag in view
+1792283235.036,8,CLIMB,False,,[],nan,nan,nan,,,0,0,40,0,75.0,64,no trusted tag in view
+1792283235.086,5,CLIMB,False,,[],nan,nan,nan,,,0,0,39,0,77.0,79,no trusted tag in view
+1792283235.086,8,CLIMB,False,,[],nan,nan,nan,,,0,0,39,0,76.0,64,no trusted tag in view
+1792283235.136,5,CLIMB,False,,[],nan,nan,nan,,,0,0,39,0,77.0,79,no trusted tag in view
+1792283235.136,8,CLIMB,False,,[],nan,nan,nan,,,0,0,39,0,76.0,64,no trusted tag in view
+1792283235.186,5,CLIMB,False,,[],nan,nan,nan,,,0,0,39,0,77.0,79,no trusted tag in view
+1792283235.186,8,CLIMB,False,,[],nan,nan,nan,,,0,0,39,0,77.0,64,no trusted tag in view
+1792283235.236,5,CLIMB,False,,[],nan,nan,nan,,,0,0,39,0,77.0,79,no trusted tag in view
+1792283235.236,8,CLIMB,False,,[],nan,nan,nan,,,0,0,38,0,78.0,64,no trusted tag in view
+1792283235.286,5,CLIMB,False,,[],nan,nan,nan,,,0,0,39,0,77.0,79,no trusted tag in view
+1792283235.286,8,CLIMB,False,,[],nan,nan,nan,,,0,0,38,0,78.0,64,no trusted tag in view
+1792283235.336,5,CLIMB,False,,[],nan,nan,nan,,,0,0,38,0,78.0,79,no trusted tag in view
+1792283235.336,8,CLIMB,False,,[],nan,nan,nan,,,0,0,37,0,80.0,64,no trusted tag in view
+1792283235.386,5,CLIMB,False,,[],nan,nan,nan,,,0,0,38,0,78.0,79,no trusted tag in view
+1792283235.386,8,CLIMB,False,,[],nan,nan,nan,,,0,0,37,0,80.0,64,no trusted tag in view
+1792283235.436,5,CLIMB,False,,[],nan,nan,nan,,,0,0,38,0,78.0,79,no trusted tag in view
+1792283235.436,8,CLIMB,False,,[],nan,nan,nan,,,0,0,36,0,82.0,64,no trusted tag in view
+1792283235.486,5,CLIMB,False,,[],nan,nan,nan,,,0,0,38,0,78.0,79,no trusted tag in view
+1792283235.486,8,CLIMB,False,,[],nan,nan,nan,,,0,0,36,0,82.0,64,no trusted tag in view
+1792283235.536,5,CLIMB,False,,[],nan,nan,nan,,,0,0,38,0,79.0,79,no trusted tag in view
+1792283235.536,8,CLIMB,False,,[],nan,nan,nan,,,0,0,35,0,84.0,64,no trusted tag in view
+1792283235.587,5,CLIMB,False,,[],nan,nan,nan,,,0,0,38,0,79.0,79,no trusted tag in view
+1792283235.587,8,CLIMB,False,,[],nan,nan,nan,,,0,0,35,0,84.0,64,no trusted tag in view
+1792283235.637,5,CLIMB,False,,[],nan,nan,nan,,,0,0,38,0,79.0,79,no trusted tag in view
+1792283235.637,8,CLIMB,False,,[],nan,nan,nan,,,0,0,34,0,87.0,64,no trusted tag in view
+1792283235.687,5,CLIMB,False,,[],nan,nan,nan,,,0,0,38,0,78.0,79,no trusted tag in view
+1792283235.687,8,CLIMB,False,,[],nan,nan,nan,,,0,0,34,0,87.0,64,no trusted tag in view
+1792283235.737,5,CLIMB,False,,[],nan,nan,nan,,,0,0,38,0,79.0,79,no trusted tag in view
+1792283235.737,8,CLIMB,False,,[],nan,nan,nan,,,0,0,33,0,88.0,64,no trusted tag in view
+1792283235.787,5,CLIMB,False,,[],nan,nan,nan,,,0,0,38,0,79.0,79,no trusted tag in view
+1792283235.787,8,CLIMB,False,,[],nan,nan,nan,,,0,0,33,0,88.0,64,no trusted tag in view
+1792283235.837,5,CLIMB,False,,[],nan,nan,nan,,,0,0,38,0,79.0,79,no trusted tag in view
+1792283235.837,8,CLIMB,False,,[],nan,nan,nan,,,0,0,32,0,91.0,64,no trusted tag in view
+1792283235.887,5,CLIMB,False,,[],nan,nan,nan,,,0,0,37,0,80.0,79,no trusted tag in view
+1792283235.887,8,CLIMB,False,,[],nan,nan,nan,,,0,0,32,0,91.0,64,no trusted tag in view
+1792283235.937,5,CLIMB,False,,[],nan,nan,nan,,,0,0,37,0,81.0,79,no trusted tag in view
+1792283235.937,8,CLIMB,False,,[],nan,nan,nan,,,0,0,31,0,92.0,64,no trusted tag in view
+1792283235.987,5,CLIMB,False,,[],nan,nan,nan,,,0,0,37,0,81.0,79,no trusted tag in view
+1792283235.987,8,CLIMB,False,,[],nan,nan,nan,,,0,0,31,0,92.0,64,no trusted tag in view
+1792283236.037,5,CLIMB,False,,[],nan,nan,nan,,,0,0,36,0,83.0,79,no trusted tag in view
+1792283236.037,8,CLIMB,False,,[],nan,nan,nan,,,0,0,31,0,92.0,64,no trusted tag in view
+1792283236.087,5,CLIMB,False,,[],nan,nan,nan,,,0,0,36,0,83.0,79,no trusted tag in view
+1792283236.087,8,CLIMB,False,,[],nan,nan,nan,,,0,0,31,0,92.0,64,no trusted tag in view
+1792283236.137,5,CLIMB,False,,[],nan,nan,nan,,,0,0,36,0,83.0,79,no trusted tag in view
+1792283236.137,8,CLIMB,False,,[],nan,nan,nan,,,0,0,29,0,96.0,64,no trusted tag in view
+1792283236.187,5,CLIMB,False,,[],nan,nan,nan,,,0,0,36,0,83.0,79,no trusted tag in view
+1792283236.187,8,CLIMB,False,,[],nan,nan,nan,,,0,0,29,0,96.0,63,no trusted tag in view
+1792283236.238,5,CLIMB,False,,[],nan,nan,nan,,,0,0,36,0,83.0,79,no trusted tag in view
+1792283236.238,8,CLIMB,False,,[],nan,nan,nan,,,0,0,28,0,98.0,63,no trusted tag in view
+1792283236.288,5,CLIMB,False,,[],nan,nan,nan,,,0,0,35,0,85.0,79,no trusted tag in view
+1792283236.288,8,CLIMB,False,,[],nan,nan,nan,,,0,0,28,0,98.0,63,no trusted tag in view
+1792283236.338,5,CLIMB,False,,[],nan,nan,nan,,,0,0,34,0,87.0,79,no trusted tag in view
+1792283236.338,8,CLIMB,False,,[],nan,nan,nan,,,0,0,28,0,99.0,63,no trusted tag in view
+1792283236.388,5,CLIMB,False,,[],nan,nan,nan,,,0,0,33,0,89.0,79,no trusted tag in view
+1792283236.388,8,CLIMB,False,,[],nan,nan,nan,,,0,0,28,0,99.0,63,no trusted tag in view
+1792283236.438,5,CLIMB,False,,[],nan,nan,nan,,,0,0,33,0,89.0,79,no trusted tag in view
+1792283236.438,8,CLIMB,False,,[],nan,nan,nan,,,0,0,27,0,100.0,63,no trusted tag in view
+1792283236.488,5,CLIMB,False,,[],nan,nan,nan,,,0,0,33,0,89.0,79,no trusted tag in view
+1792283236.488,8,CLIMB,False,,[],nan,nan,nan,,,0,0,27,0,100.0,63,no trusted tag in view
+1792283236.539,5,CLIMB,False,,[],nan,nan,nan,,,0,0,31,0,93.0,79,no trusted tag in view
+1792283236.539,8,CLIMB,False,,[],nan,nan,nan,,,0,0,26,0,102.0,63,no trusted tag in view
+1792283236.589,5,CLIMB,False,,[],nan,nan,nan,,,0,0,31,0,93.0,79,no trusted tag in view
+1792283236.589,8,CLIMB,False,,[],nan,nan,nan,,,0,0,26,0,102.0,63,no trusted tag in view
+1792283236.639,5,CLIMB,False,,[],nan,nan,nan,,,0,0,31,0,93.0,79,no trusted tag in view
+1792283236.639,8,CLIMB,False,,[],nan,nan,nan,,,0,0,26,0,103.0,63,no trusted tag in view
+1792283236.689,5,CLIMB,False,,[],nan,nan,nan,,,0,0,31,0,93.0,79,no trusted tag in view
+1792283236.689,8,CLIMB,False,,[],nan,nan,nan,,,0,0,26,0,103.0,63,no trusted tag in view
+1792283236.739,5,CLIMB,False,,[],nan,nan,nan,,,0,0,30,0,95.0,79,no trusted tag in view
+1792283236.739,8,CLIMB,False,,[],nan,nan,nan,,,0,0,25,0,104.0,63,no trusted tag in view
+1792283236.789,5,CLIMB,False,,[],nan,nan,nan,,,0,0,30,0,95.0,79,no trusted tag in view
+1792283236.789,8,LOCKED,True,10,[10],0.349,1.294,-3.099,14.7,,0,0,34,-22,104.0,63,no valid tag pose
+1792283236.839,5,CLIMB,False,,[],nan,nan,nan,,,0,0,30,0,95.0,79,no trusted tag in view
+1792283236.839,8,APPROACH,True,10,[10],0.460,1.131,-3.126,12.7,,0,0,33,-22,105.0,63,tags [10] single 2.5px  ref 10
+1792283236.889,5,CLIMB,False,,[],nan,nan,nan,,,0,0,30,0,95.0,79,no trusted tag in view
+1792283236.889,8,APPROACH,True,10,[10],0.482,1.045,-3.149,12.4,1.902,-10,34,33,-22,105.0,63,tags [10] single 1.9px  ref 10
+1792283236.939,5,CLIMB,False,,[],nan,nan,nan,,,0,0,30,0,95.0,79,no trusted tag in view
+1792283236.939,8,APPROACH,True,10,[10],0.484,0.864,-3.204,12.5,1.956,-10,34,33,-22,106.0,63,tags [10] single 1.0px  ref 10
+1792283236.989,5,CLIMB,False,,[],nan,nan,nan,,,0,0,30,0,95.0,79,no trusted tag in view
+1792283236.989,8,APPROACH,True,10,[10],0.452,0.743,-3.242,13.1,1.992,-10,34,33,-22,106.0,63,tags [10] single 0.7px  ref 10
+1792283237.040,5,CLIMB,False,,[],nan,nan,nan,,,0,0,29,0,97.0,79,no trusted tag in view
+1792283237.040,8,APPROACH,True,10,"[9, 10]",0.419,0.576,-3.281,13.9,2.030,-10,34,33,-22,107.0,63,"tags [9, 10] seen; position jump ignored"
+1792283237.090,5,CLIMB,False,,[],nan,nan,nan,,,0,0,26,0,103.0,78,no trusted tag in view
+1792283237.090,8,APPROACH,True,10,"[9, 10]",0.419,0.576,-3.281,13.9,2.030,-10,34,33,-21,107.0,63,"tags [9, 10] seen; position jump ignored"
+1792283237.140,5,CLIMB,False,,[],nan,nan,nan,,,0,0,26,0,103.0,78,no trusted tag in view
+1792283237.140,8,APPROACH,True,10,"[9, 10]",0.419,0.576,-3.281,13.9,2.030,-10,34,32,-20,107.0,63,"tags [9, 10] seen; position jump ignored"
+1792283237.190,5,CLIMB,False,,[],nan,nan,nan,,,0,0,25,0,105.0,78,no trusted tag in view
+1792283237.190,8,APPROACH,True,10,"[9, 10]",0.419,0.576,-3.281,13.9,2.030,-10,34,32,-20,109.0,63,"tags [9, 10] seen; position jump ignored"
+1792283237.240,5,CLIMB,False,,[],nan,nan,nan,,,0,0,25,0,105.0,78,no trusted tag in view
+1792283237.240,8,APPROACH,True,10,"[9, 10]",0.419,0.576,-3.281,13.9,2.030,-10,34,32,-19,109.0,63,"tags [9, 10] seen; position jump ignored"
+1792283237.290,5,CLIMB,False,,[],nan,nan,nan,,,0,0,24,0,107.0,78,no trusted tag in view
+1792283237.290,8,APPROACH,True,10,"[9, 10]",0.419,0.576,-3.281,13.9,2.030,-10,34,32,-19,110.0,63,"tags [9, 10] seen; position jump ignored"
+1792283237.340,5,LOCKED,True,10,[10],-0.593,1.064,-3.259,-3.6,,0,0,36,14,107.0,78,tags [10] single 2.0px  ref 10
+1792283237.340,8,APPROACH,True,10,"[9, 10]",0.419,0.576,-3.281,13.9,2.030,-10,34,31,-18,110.0,63,"tags [9, 10] seen; position jump ignored"
+1792283237.390,5,APPROACH,True,10,[10],-0.652,1.008,-3.252,-2.6,,0,0,36,14,107.0,78,tags [10] single 1.8px  ref 10
+1792283237.390,8,APPROACH,True,10,"[9, 10]",0.419,0.576,-3.281,13.9,2.030,-10,34,31,-17,111.0,63,"tags [9, 10] seen; position jump ignored"
+1792283237.440,5,APPROACH,True,10,[10],-0.652,1.008,-3.252,-2.6,2.023,7,34,36,14,107.0,78,tags [10] single 1.8px  ref 10
+1792283237.440,8,APPROACH,True,10,"[9, 10]",0.419,0.576,-3.281,13.9,2.030,-10,34,31,-16,111.0,63,"tags [9, 10] seen; position jump ignored"
+1792283237.490,5,APPROACH,True,10,[10],-0.749,0.607,-3.301,-1.2,2.088,7,34,35,14,110.0,78,tags [10] single 0.9px  ref 10
+1792283237.490,8,APPROACH,True,10,"[9, 10]",0.419,0.576,-3.281,13.9,2.030,-10,34,31,-16,113.0,63,"tags [9, 10] seen; position jump ignored"
+1792283237.540,5,APPROACH,True,10,[10],-0.787,0.445,-3.305,-0.7,2.099,8,34,35,14,110.0,78,tags [10] single 1.8px  ref 10
+1792283237.540,8,APPROACH,True,10,"[9, 10]",0.419,0.576,-3.281,13.9,2.030,-10,34,31,-15,113.0,63,"tags [9, 10] seen; position jump ignored"
+1792283237.590,5,APPROACH,True,10,[10],-0.787,0.445,-3.305,-0.7,2.099,8,34,35,14,110.0,78,tags [10] seen; position jump ignored
+1792283237.590,8,APPROACH,True,10,"[9, 10]",0.419,0.576,-3.281,13.9,2.030,-10,34,30,-15,115.0,63,"tags [9, 10] seen; position jump ignored"
+1792283237.641,5,APPROACH,True,10,[10],-0.787,0.445,-3.305,-0.7,2.099,8,34,35,14,110.0,78,tags [10] seen; position jump ignored
+1792283237.641,8,APPROACH,True,10,"[9, 10]",0.419,0.576,-3.281,13.9,2.030,-10,34,30,-14,115.0,63,"tags [9, 10] seen; position jump ignored"
+1792283237.691,5,APPROACH,True,10,"[8, 10]",-0.787,0.445,-3.305,-0.7,2.099,8,34,34,14,112.0,78,"tags [8, 10] seen; position jump ignored"
+1792283237.691,8,APPROACH,True,10,"[9, 10]",0.419,0.576,-3.281,13.9,2.030,-10,34,30,-13,117.0,63,"tags [9, 10] seen; position jump ignored"
+1792283237.741,5,APPROACH,True,10,"[8, 10]",-0.787,0.445,-3.305,-0.7,2.099,8,34,34,14,114.0,78,"tags [8, 10] seen; position jump ignored"
+1792283237.741,8,APPROACH,True,10,"[9, 10]",0.419,0.576,-3.281,13.9,2.030,-10,34,29,-13,117.0,63,"tags [9, 10] seen; position jump ignored"
+1792283237.791,5,APPROACH,True,10,"[8, 10]",-0.787,0.445,-3.305,-0.7,2.099,8,34,34,14,114.0,78,"tags [8, 10] seen; position jump ignored"
+1792283237.791,8,APPROACH,True,10,"[9, 10]",0.419,0.576,-3.281,13.9,2.030,-10,34,29,-12,118.0,63,"tags [9, 10] seen; position jump ignored"
+1792283237.841,5,APPROACH,True,10,"[8, 10]",-0.787,0.445,-3.305,-0.7,2.099,8,34,34,14,116.0,78,"tags [8, 10] seen; position jump ignored"
+1792283237.841,8,APPROACH,True,10,"[9, 10]",0.419,0.576,-3.281,13.9,2.030,-10,34,29,-11,118.0,63,"tags [9, 10] seen; position jump ignored"
+1792283237.891,5,APPROACH,True,10,"[8, 10]",-0.787,0.445,-3.305,-0.7,2.099,8,34,33,14,117.0,78,"tags [8, 10] seen; position jump ignored"
+1792283237.891,8,APPROACH,True,10,"[9, 10]",0.419,0.576,-3.281,13.9,2.030,-10,34,29,-11,120.0,63,"tags [9, 10] seen; position jump ignored"
+1792283237.941,5,APPROACH,True,10,"[8, 10]",-0.787,0.445,-3.305,-0.7,2.099,8,34,33,14,117.0,78,"tags [8, 10] seen; position jump ignored"
+1792283237.941,8,APPROACH,True,10,"[8, 9, 10]",0.419,0.576,-3.281,13.9,2.030,-10,34,28,-10,120.0,63,"tags [8, 9, 10] seen; position jump ignored"
+1792283237.991,5,APPROACH,True,10,"[8, 10]",-0.787,0.445,-3.305,-0.7,2.099,8,34,33,14,120.0,78,"tags [8, 10] seen; position jump ignored"
+1792283237.991,8,APPROACH,True,10,"[8, 9, 10]",0.419,0.576,-3.281,13.9,2.030,-10,34,28,-10,121.0,63,"tags [8, 9, 10] seen; position jump ignored"
+1792283238.041,5,APPROACH,True,10,"[8, 10]",-0.787,0.445,-3.305,-0.7,2.099,-25,-8,33,14,120.0,78,"tags [8, 10] seen; position jump ignored"
+1792283238.041,8,APPROACH,True,10,"[8, 9, 10]",-0.438,0.069,-3.189,17.2,2.091,21,15,28,-9,121.0,63,"tags [8, 9, 10] joint 0.5px  ref 10"
+1792283238.091,5,APPROACH,True,10,"[8, 10]",-0.787,0.445,-3.305,-0.7,2.099,-19,-6,32,13,121.0,78,"tags [8, 10] seen; position jump ignored"
+1792283238.091,8,APPROACH,True,10,"[8, 9, 10]",-0.438,0.069,-3.189,17.2,2.091,17,12,28,-9,121.0,63,"tags [8, 9, 10] joint 0.5px  ref 10"
+1792283238.141,5,APPROACH,True,10,"[8, 10]",-0.787,0.445,-3.305,-0.7,2.099,-17,-5,32,13,121.0,78,"tags [8, 10] seen; position jump ignored"
+1792283238.141,8,APPROACH,True,10,"[8, 9, 10]",-0.438,0.069,-3.189,17.2,2.091,14,10,28,-9,122.0,63,"tags [8, 9, 10] joint 0.5px  ref 10"
+1792283238.191,5,APPROACH,True,10,"[8, 10]",-0.787,0.445,-3.305,-0.7,2.099,-14,-5,32,13,121.0,78,"tags [8, 10] seen; position jump ignored"
+1792283238.191,8,APPROACH,True,10,"[8, 9, 10]",-0.442,0.055,-3.167,16.8,2.072,12,10,27,-8,122.0,63,"tags [8, 9, 10] joint 0.4px  ref 10"
+1792283238.241,5,APPROACH,True,10,"[8, 10]",-0.787,0.445,-3.305,-0.7,2.099,-13,-5,31,13,123.0,78,"tags [8, 10] seen; position jump ignored"
+1792283238.241,8,APPROACH,True,10,"[8, 9, 10]",-0.443,0.046,-3.156,16.6,2.063,10,9,27,-8,122.0,63,"tags [8, 9, 10] joint 0.4px  ref 10"
+1792283238.292,5,APPROACH,True,10,"[8, 10]",-0.787,0.445,-3.305,-0.7,2.099,-12,-5,30,13,125.0,78,"tags [8, 10] seen; position jump ignored"
+1792283238.292,8,APPROACH,True,10,"[8, 9, 10]",-0.443,0.046,-3.156,16.6,2.063,10,9,27,-8,122.0,63,"tags [8, 9, 10] joint 0.4px  ref 10"
+1792283238.342,5,APPROACH,True,10,"[8, 10]",-0.787,0.445,-3.305,-0.7,2.099,-12,-5,29,13,125.0,78,"tags [8, 10] seen; position jump ignored"
+1792283238.342,8,APPROACH,True,10,"[8, 9, 10]",-0.443,0.046,-3.156,16.6,2.063,10,9,27,-8,122.0,63,"tags [8, 9, 10] joint 0.4px  ref 10"
+1792283238.392,5,APPROACH,True,10,"[8, 10]",-0.787,0.445,-3.305,-0.7,2.099,-12,-5,27,11,128.0,78,"tags [8, 10] seen; position jump ignored"
+1792283238.392,8,APPROACH,True,10,"[8, 9, 10]",-0.443,0.046,-3.156,16.6,2.063,10,9,27,-8,125.0,63,"tags [8, 9, 10] joint 0.4px  ref 10"
+1792283238.442,5,APPROACH,True,10,"[8, 10]",-0.787,0.445,-3.305,-0.7,2.099,-9,-2,27,11,128.0,78,"tags [8, 10] seen; position jump ignored"
+1792283238.442,8,APPROACH,True,10,"[8, 9, 10]",-0.448,0.024,-3.076,15.4,1.991,8,12,25,-8,125.0,63,"tags [8, 9, 10] joint 0.6px  ref 10"
+1792283238.492,5,APPROACH,True,10,"[8, 10]",-0.787,0.445,-3.305,-0.7,2.099,-4,10,27,11,128.0,78,"tags [8, 10] seen; position jump ignored"
+1792283238.492,8,APPROACH,True,10,"[8, 9, 10]",-0.447,0.013,-3.028,14.9,1.947,8,23,25,-8,126.0,63,"tags [8, 9, 10] joint 0.6px  ref 10"
+1792283238.542,5,APPROACH,True,10,"[8, 10]",0.894,-0.281,-3.186,-27.0,2.300,-4,35,26,11,128.0,78,"tags [8, 10] joint 1.0px  ref 10"
+1792283238.542,8,APPROACH,True,10,"[8, 9, 10]",-0.447,0.003,-2.998,14.6,1.919,6,34,24,-8,127.0,63,"tags [8, 9, 10] joint 0.6px  ref 10"
+1792283238.592,5,APPROACH,True,10,"[8, 10]",0.887,-0.282,-3.180,-26.7,2.290,-4,35,26,10,133.0,78,"tags [8, 10] joint 0.9px  ref 10"
+1792283238.592,8,APPROACH,True,10,"[8, 9, 10]",-0.446,-0.001,-2.983,14.4,1.906,6,34,24,-8,127.0,63,"tags [8, 9, 10] joint 0.5px  ref 10"
+1792283238.642,5,APPROACH,True,10,"[8, 10]",0.877,-0.284,-3.177,-26.4,2.283,-4,35,26,10,133.0,78,"tags [8, 10] joint 1.1px  ref 10"
+1792283238.642,8,APPROACH,True,10,"[8, 9, 10]",-0.445,-0.008,-2.955,14.1,1.879,7,34,23,-8,128.0,63,"tags [8, 9, 10] joint 0.6px  ref 10"
+1792283238.692,5,APPROACH,True,10,"[8, 10]",0.858,-0.314,-3.129,-25.6,2.232,-4,35,24,9,135.0,78,"tags [8, 10] joint 1.0px  ref 10"
+1792283238.692,8,APPROACH,True,10,"[8, 9, 10]",-0.444,-0.015,-2.941,14.0,1.867,7,34,23,-8,128.0,63,"tags [8, 9, 10] joint 0.6px  ref 10"
+1792283238.743,5,APPROACH,True,10,"[8, 10]",0.847,-0.320,-3.110,-25.2,2.210,-5,35,23,9,135.0,78,"tags [8, 10] joint 1.0px  ref 10"
+1792283238.743,8,APPROACH,True,10,"[8, 9, 10]",-0.443,-0.018,-2.915,13.7,1.842,7,34,23,-8,128.0,63,"tags [8, 9, 10] joint 0.5px  ref 10"
+1792283238.793,5,APPROACH,True,10,"[8, 10]",0.846,-0.326,-3.070,-24.9,2.176,-5,35,22,9,137.0,78,"tags [8, 10] joint 1.0px  ref 10"
+1792283238.793,8,APPROACH,True,10,"[8, 9, 10]",-0.441,-0.018,-2.902,13.6,1.830,7,34,22,-8,130.0,63,"tags [8, 9, 10] joint 0.6px  ref 10"
+1792283238.843,5,APPROACH,True,10,"[8, 10]",0.816,-0.342,-3.031,-23.9,2.127,-6,35,21,8,139.0,78,"tags [8, 10] joint 0.9px  ref 10"
+1792283238.843,8,APPROACH,True,10,"[8, 9, 10]",-0.439,-0.023,-2.878,13.3,1.808,8,34,22,-8,130.0,63,"tags [8, 9, 10] joint 0.6px  ref 10"
+1792283238.893,5,APPROACH,True,10,"[8, 10]",0.809,-0.354,-3.008,-23.6,2.105,-6,34,20,8,139.0,78,"tags [8, 10] joint 1.0px  ref 10"
+1792283238.893,8,APPROACH,True,10,"[8, 9, 10]",-0.438,-0.031,-2.867,13.1,1.797,8,34,22,-8,130.0,63,"tags [8, 9, 10] joint 0.7px  ref 10"
+1792283238.943,5,APPROACH,True,10,"[8, 10]",0.802,-0.349,-2.996,-23.3,2.090,-6,34,19,8,141.0,78,"tags [8, 10] joint 1.2px  ref 10"
+1792283238.943,8,APPROACH,True,10,"[8, 9, 10]",-0.439,-0.047,-2.844,12.9,1.777,8,34,21,-8,130.0,63,"tags [8, 9, 10] joint 0.7px  ref 10"
+1792283238.993,5,APPROACH,True,10,"[8, 10]",0.801,-0.357,-2.987,-23.3,2.082,-6,34,19,8,141.0,78,"tags [8, 10] joint 1.2px  ref 10"
+1792283238.993,8,APPROACH,True,10,"[8, 9, 10]",-0.438,-0.049,-2.833,12.8,1.766,8,34,21,-8,131.0,63,"tags [8, 9, 10] joint 0.7px  ref 10"
+1792283239.043,5,APPROACH,True,10,"[8, 10]",0.799,-0.368,-2.970,-23.1,2.067,-6,34,18,8,142.0,78,"tags [8, 10] joint 1.3px  ref 10"
+1792283239.043,8,APPROACH,True,10,"[8, 9, 10]",-0.434,-0.051,-2.809,12.5,1.744,9,34,21,-8,131.0,63,"tags [8, 9, 10] joint 0.6px  ref 10"
+1792283239.093,5,APPROACH,True,10,"[8, 10]",0.796,-0.368,-2.962,-23.0,2.058,-7,34,18,8,142.0,78,"tags [8, 10] joint 1.2px  ref 10"
+1792283239.093,8,APPROACH,True,10,"[8, 9, 10]",-0.434,-0.055,-2.797,12.4,1.733,9,34,21,-8,131.0,63,"tags [8, 9, 10] joint 0.6px  ref 10"
+1792283239.144,5,APPROACH,True,10,"[8, 10]",0.788,-0.374,-2.946,-22.8,2.041,-7,34,17,8,144.0,78,"tags [8, 10] joint 1.2px  ref 10"
+1792283239.144,8,APPROACH,True,10,"[8, 9, 10]",-0.432,-0.059,-2.773,12.2,1.710,9,34,20,-8,131.0,63,"tags [8, 9, 10] joint 0.6px  ref 10"
+1792283239.194,5,APPROACH,True,10,"[8, 10]",0.789,-0.378,-2.934,-22.8,2.031,-7,34,17,8,144.0,78,"tags [8, 10] joint 1.1px  ref 10"
+1792283239.194,8,APPROACH,True,10,"[8, 9, 10]",-0.429,-0.069,-2.748,11.9,1.687,9,34,20,0,132.0,63,"tags [8, 9, 10] joint 0.7px  ref 10"
+1792283239.244,5,APPROACH,True,10,"[8, 10]",0.781,-0.386,-2.917,-22.7,2.013,-7,34,16,8,146.0,78,"tags [8, 10] joint 1.1px  ref 10"
+1792283239.244,8,APPROACH,True,10,"[8, 9, 10]",-0.427,-0.071,-2.735,11.8,1.675,10,34,19,0,132.0,63,"tags [8, 9, 10] joint 0.7px  ref 10"
+1792283239.294,5,APPROACH,True,10,"[8, 10]",0.779,-0.389,-2.907,-22.6,2.003,-7,34,16,8,146.0,78,"tags [8, 10] joint 1.1px  ref 10"
+1792283239.294,8,APPROACH,True,10,"[8, 9, 10]",-0.426,-0.076,-2.723,11.7,1.663,10,34,19,0,132.0,63,"tags [8, 9, 10] joint 0.7px  ref 10"
+1792283239.344,5,APPROACH,True,10,"[8, 10]",0.776,-0.398,-2.883,-22.6,1.981,-7,34,15,8,148.0,78,"tags [8, 10] joint 1.1px  ref 10"
+1792283239.344,8,APPROACH,True,10,"[8, 9, 10]",-0.422,-0.080,-2.696,11.6,1.638,10,34,19,0,132.0,63,"tags [8, 9, 10] joint 0.7px  ref 10"
+1792283239.394,5,APPROACH,True,10,"[8, 10]",0.776,-0.402,-2.869,-22.6,1.970,-7,34,15,8,148.0,78,"tags [8, 10] joint 1.1px  ref 10"
+1792283239.394,8,APPROACH,True,10,"[8, 9, 10]",-0.420,-0.082,-2.683,11.5,1.625,10,34,19,0,134.0,63,"tags [8, 9, 10] joint 0.7px  ref 10"
+1792283239.444,5,APPROACH,True,10,"[8, 10]",0.770,-0.412,-2.844,-22.5,1.947,-8,34,15,8,150.0,78,"tags [8, 10] joint 1.2px  ref 10"
+1792283239.444,8,APPROACH,True,10,"[8, 9, 10]",-0.415,-0.088,-2.655,11.4,1.598,10,33,18,0,134.0,63,"tags [8, 9, 10] joint 0.6px  ref 10"
+1792283239.494,5,APPROACH,True,10,"[8, 10]",0.767,-0.414,-2.831,-22.4,1.934,-8,34,14,8,150.0,78,"tags [8, 10] joint 1.1px  ref 10"
+1792283239.494,8,APPROACH,True,10,"[8, 9, 10]",-0.413,-0.088,-2.641,11.3,1.585,11,33,18,0,134.0,63,"tags [8, 9, 10] joint 0.7px  ref 10"
+1792283239.544,5,APPROACH,True,10,"[8, 10]",0.762,-0.424,-2.803,-22.4,1.909,-8,34,14,8,151.0,78,"tags [8, 10] joint 1.1px  ref 10"
+1792283239.544,8,APPROACH,True,10,"[8, 9, 10]",-0.407,-0.092,-2.613,11.2,1.557,11,33,18,0,134.0,63,"tags [8, 9, 10] joint 0.7px  ref 10"
+1792283239.594,5,APPROACH,True,10,"[8, 10]",0.758,-0.424,-2.790,-22.3,1.895,-8,34,13,8,151.0,78,"tags [8, 10] joint 1.2px  ref 10"
+1792283239.594,8,APPROACH,True,10,"[8, 9, 10]",-0.404,-0.093,-2.598,11.2,1.543,11,33,17,0,134.0,63,"tags [8, 9, 10] joint 0.8px  ref 10"
+1792283239.644,5,APPROACH,True,10,"[8, 10]",0.758,-0.424,-2.790,-22.3,1.895,-8,34,13,8,151.0,78,"tags [8, 10] joint 1.2px  ref 10"
+1792283239.644,8,APPROACH,True,10,"[8, 9, 10]",-0.399,-0.097,-2.569,11.2,1.515,11,33,17,0,134.0,63,"tags [8, 9, 10] joint 0.8px  ref 10"
+1792283239.694,5,APPROACH,True,10,"[8, 10]",0.743,-0.440,-2.728,-22.0,1.837,-9,34,12,8,152.0,78,"tags [8, 10] joint 1.2px  ref 10"
+1792283239.694,8,APPROACH,True,10,"[8, 9, 10]",-0.396,-0.098,-2.554,11.2,1.500,11,33,17,0,135.0,63,"tags [8, 9, 10] joint 0.8px  ref 10"
+1792283239.744,5,APPROACH,True,10,"[8, 10]",0.730,-0.434,-2.718,-21.7,1.821,-9,34,12,8,154.0,78,"tags [8, 10] joint 1.2px  ref 10"
+1792283239.744,8,APPROACH,True,10,"[8, 9, 10]",-0.391,-0.104,-2.524,11.2,1.472,11,33,17,0,135.0,63,"tags [8, 9, 10] joint 0.8px  ref 10"
+1792283239.795,5,APPROACH,True,10,"[8, 10]",0.726,-0.440,-2.702,-21.7,1.806,-9,34,12,8,154.0,78,"tags [8, 10] joint 1.3px  ref 10"
+1792283239.795,8,APPROACH,True,10,"[8, 9, 10]",-0.388,-0.105,-2.508,11.1,1.457,12,33,16,0,136.0,63,"tags [8, 9, 10] joint 0.7px  ref 10"
+1792283239.845,5,APPROACH,True,10,"[8, 10]",0.720,-0.450,-2.668,-21.6,1.775,-9,34,11,8,155.0,78,"tags [8, 10] joint 1.4px  ref 10"
+1792283239.845,8,APPROACH,True,10,"[8, 9, 10]",-0.381,-0.107,-2.477,11.1,1.427,12,33,16,0,136.0,63,"tags [8, 9, 10] joint 0.8px  ref 10"
+1792283239.895,5,APPROACH,True,10,"[8, 10]",0.718,-0.453,-2.650,-21.6,1.759,-10,34,11,8,155.0,78,"tags [8, 10] joint 1.4px  ref 10"
+1792283239.895,8,APPROACH,True,10,"[8, 9, 10]",-0.378,-0.108,-2.462,11.1,1.412,12,33,16,0,136.0,63,"tags [8, 9, 10] joint 0.8px  ref 10"
+1792283239.945,5,APPROACH,True,10,"[8, 10]",0.708,-0.459,-2.617,-21.4,1.727,-10,34,10,8,156.0,78,"tags [8, 10] joint 1.4px  ref 10"
+1792283239.945,8,APPROACH,True,10,"[8, 9, 10]",-0.372,-0.113,-2.431,11.1,1.382,12,33,15,0,136.0,63,"tags [8, 9, 10] joint 0.8px  ref 10"
+1792283239.995,5,APPROACH,True,10,"[8, 10]",0.700,-0.464,-2.582,-21.3,1.694,-10,33,10,8,156.0,78,"tags [8, 10] joint 1.4px  ref 10"
+1792283239.995,8,APPROACH,True,10,"[8, 9, 10]",-0.369,-0.116,-2.415,11.1,1.367,12,33,15,0,137.0,63,"tags [8, 9, 10] joint 0.8px  ref 10"
+1792283240.045,5,APPROACH,True,10,"[8, 10]",0.700,-0.464,-2.582,-21.3,1.694,-10,33,10,8,156.0,78,"tags [8, 10] joint 1.4px  ref 10"
+1792283240.045,8,APPROACH,True,10,"[8, 9, 10]",-0.365,-0.115,-2.399,11.1,1.351,12,33,15,0,137.0,63,"tags [8, 9, 10] joint 0.8px  ref 10"
+1792283240.095,5,APPROACH,True,10,"[8, 10]",0.691,-0.466,-2.547,-21.2,1.661,-11,33,9,8,158.0,78,"tags [8, 10] joint 1.5px  ref 10"
+1792283240.095,8,APPROACH,True,10,"[8, 9, 10]",-0.358,-0.119,-2.367,11.1,1.321,13,33,15,0,137.0,63,"tags [8, 9, 10] joint 0.9px  ref 10"
+1792283240.145,5,APPROACH,True,10,"[8, 10]",0.683,-0.470,-2.510,-21.1,1.628,-11,33,9,8,158.0,78,"tags [8, 10] joint 1.5px  ref 10"
+1792283240.145,8,APPROACH,True,10,"[8, 9, 10]",-0.352,-0.121,-2.346,11.0,1.300,13,33,14,0,138.0,63,"tags [8, 9, 10] joint 0.8px  ref 10"
+1792283240.195,5,APPROACH,True,10,"[8, 10]",0.679,-0.470,-2.492,-21.0,1.611,-11,33,8,8,158.0,78,"tags [8, 10] joint 1.4px  ref 10"
+1792283240.195,8,APPROACH,True,10,"[8, 9, 10]",-0.342,-0.125,-2.308,11.0,1.262,13,32,14,0,137.0,63,"tags [8, 9, 10] joint 0.9px  ref 10"
+1792283240.245,5,APPROACH,True,10,"[8, 10]",0.672,-0.467,-2.475,-20.9,1.594,-11,33,8,8,158.0,78,"tags [8, 10] joint 1.5px  ref 10"
+1792283240.245,8,APPROACH,True,10,"[8, 9, 10]",-0.337,-0.129,-2.290,11.0,1.245,13,32,14,0,137.0,63,"tags [8, 9, 10] joint 0.9px  ref 10"
+1792283240.295,5,APPROACH,True,10,"[8, 10]",0.662,-0.467,-2.440,-20.8,1.560,-12,33,8,8,158.0,78,"tags [8, 10] joint 1.5px  ref 10"
+1792283240.295,8,APPROACH,True,10,"[8, 9, 10]",-0.332,-0.130,-2.273,11.0,1.228,14,32,14,0,138.0,63,"tags [8, 9, 10] joint 0.8px  ref 10"
+1792283240.345,5,APPROACH,True,10,"[8, 10]",0.662,-0.467,-2.440,-20.8,1.560,-12,33,8,8,158.0,78,"tags [8, 10] joint 1.5px  ref 10"
+1792283240.345,8,APPROACH,True,10,"[8, 9, 10]",-0.323,-0.132,-2.240,11.0,1.195,14,32,13,0,138.0,63,"tags [8, 9, 10] joint 0.9px  ref 10"
+1792283240.396,5,APPROACH,True,10,"[8, 10]",0.646,-0.466,-2.385,-20.6,1.509,-12,33,8,8,159.0,78,"tags [8, 10] joint 1.5px  ref 10"
+1792283240.396,8,APPROACH,True,10,"[8, 9, 10]",-0.318,-0.133,-2.223,10.9,1.179,14,32,13,0,138.0,63,"tags [8, 9, 10] joint 0.9px  ref 10"
+1792283240.446,5,APPROACH,True,10,"[8, 10]",0.635,-0.464,-2.350,-20.5,1.475,-13,33,8,8,158.0,78,"tags [8, 10] joint 1.4px  ref 10"
+1792283240.446,8,APPROACH,True,10,"[8, 9, 10]",-0.308,-0.135,-2.190,10.9,1.146,14,32,13,-8,138.0,63,"tags [8, 9, 10] joint 0.9px  ref 10"
+1792283240.496,5,APPROACH,True,10,"[8, 10]",0.629,-0.462,-2.332,-20.5,1.458,-13,33,8,8,158.0,78,"tags [8, 10] joint 1.4px  ref 10"
+1792283240.496,8,APPROACH,True,10,"[9, 10]",-0.305,-0.141,-2.152,11.1,1.130,15,32,12,-8,136.0,63,"tags [9, 10] joint 0.8px  ref 10"
+1792283240.547,5,APPROACH,True,10,"[8, 10]",0.618,-0.459,-2.295,-20.5,1.423,-13,32,8,8,158.0,78,"tags [8, 10] joint 1.5px  ref 10"
+1792283240.547,8,APPROACH,True,10,"[9, 10]",-0.303,-0.146,-2.134,11.2,1.097,15,32,12,-8,136.0,63,"tags [9, 10] joint 0.7px  ref 10"
+1792283240.597,5,APPROACH,True,10,"[8, 10]",0.604,-0.456,-2.260,-20.3,1.388,-14,32,8,8,158.0,78,"tags [8, 10] joint 1.6px  ref 10"
+1792283240.597,8,APPROACH,True,10,"[9, 10]",-0.298,-0.145,-2.116,11.2,1.081,15,32,12,-8,125.0,63,"tags [9, 10] joint 0.7px  ref 10"
+1792283240.647,5,APPROACH,True,10,"[8, 10]",0.597,-0.453,-2.243,-20.3,1.371,-14,32,8,8,158.0,78,"tags [8, 10] joint 1.6px  ref 10"
+1792283240.647,8,APPROACH,True,10,"[9, 10]",-0.290,-0.147,-2.082,11.2,1.048,16,31,11,-8,125.0,63,"tags [9, 10] joint 0.7px  ref 10"
+1792283240.697,5,APPROACH,True,10,"[8, 10]",0.584,-0.450,-2.207,-20.2,1.336,-14,32,8,8,156.0,78,"tags [8, 10] joint 1.5px  ref 10"
+1792283240.697,8,APPROACH,True,10,"[9, 10]",-0.284,-0.147,-2.066,11.2,1.032,16,31,11,-8,97.0,63,"tags [9, 10] joint 0.8px  ref 10"
+1792283240.747,5,APPROACH,True,10,"[8, 10]",0.575,-0.447,-2.191,-20.1,1.318,-15,32,8,8,156.0,78,"tags [8, 10] joint 1.4px  ref 10"
+1792283240.747,8,APPROACH,True,10,"[9, 10]",-0.276,-0.151,-2.031,11.3,0.999,16,31,11,-8,97.0,63,"tags [9, 10] joint 0.8px  ref 10"
+1792283240.797,5,APPROACH,True,10,"[8, 10]",0.567,-0.444,-2.174,-20.0,1.301,-15,32,8,8,156.0,78,"tags [8, 10] joint 1.6px  ref 10"
+1792283240.797,8,APPROACH,True,10,"[9, 10]",-0.271,-0.154,-2.013,11.3,0.983,16,31,11,-8,93.0,63,"tags [9, 10] joint 0.8px  ref 10"
+1792283240.847,5,APPROACH,True,10,"[8, 10]",0.555,-0.440,-2.137,-20.0,1.266,-15,32,8,8,156.0,78,"tags [8, 10] joint 1.7px  ref 10"
+1792283240.847,8,APPROACH,True,10,"[9, 10]",-0.261,-0.156,-1.979,11.3,0.950,17,31,10,-8,93.0,63,"tags [9, 10] joint 0.9px  ref 10"
+1792283240.897,5,APPROACH,True,10,"[8, 10]",0.550,-0.438,-2.117,-20.0,1.249,-15,31,8,8,156.0,78,"tags [8, 10] joint 1.7px  ref 10"
+1792283240.897,8,APPROACH,True,10,"[9, 10]",-0.250,-0.158,-1.945,11.3,0.917,17,30,10,-8,93.0,63,"tags [9, 10] joint 0.8px  ref 10"
+1792283240.947,5,APPROACH,True,10,"[8, 10]",0.537,-0.432,-2.081,-20.0,1.214,-16,31,8,8,154.0,78,"tags [8, 10] joint 1.8px  ref 10"
+1792283240.947,8,APPROACH,True,10,"[9, 10]",-0.245,-0.157,-1.928,11.2,0.900,18,30,10,-8,93.0,63,"tags [9, 10] joint 0.8px  ref 10"
+1792283240.997,5,APPROACH,True,10,"[8, 10]",0.522,-0.423,-2.045,-19.9,1.179,-16,31,8,8,152.0,78,"tags [8, 10] joint 1.7px  ref 10"
+1792283240.997,8,APPROACH,True,10,"[9, 10]",-0.233,-0.161,-1.894,11.2,0.884,14,26,10,-8,93.0,63,"tags [9, 10] joint 0.8px  ref 10"
+1792283241.047,5,APPROACH,True,10,"[8, 10]",0.516,-0.421,-2.026,-20.0,1.162,-17,31,8,8,152.0,78,"tags [8, 10] joint 1.8px  ref 10"
+1792283241.047,8,APPROACH,True,10,"[9, 10]",-0.227,-0.161,-1.877,11.1,0.850,12,23,9,-8,93.0,63,"tags [9, 10] joint 0.8px  ref 10"
+1792283241.097,5,APPROACH,True,10,"[8, 10]",0.503,-0.413,-1.989,-20.0,1.127,-17,31,8,8,152.0,78,"tags [8, 10] joint 1.8px  ref 10"
+1792283241.097,8,APPROACH,True,10,"[9, 10]",-0.221,-0.164,-1.860,11.1,0.834,8,19,9,-8,93.0,63,"tags [9, 10] joint 0.9px  ref 10"
+1792283241.148,5,APPROACH,True,10,"[8, 10]",0.495,-0.408,-1.971,-20.0,1.110,-17,30,8,8,151.0,78,"tags [8, 10] joint 2.0px  ref 10"
+1792283241.148,8,APPROACH,True,10,"[9, 10]",-0.210,-0.167,-1.825,11.0,0.801,6,16,9,-8,93.0,63,"tags [9, 10] joint 0.9px  ref 10"
+1792283241.198,5,APPROACH,True,10,"[8, 10]",0.487,-0.404,-1.954,-20.0,1.092,-18,30,8,8,151.0,78,"tags [8, 10] joint 1.9px  ref 10"
+1792283241.198,8,APPROACH,True,10,"[9, 10]",-0.197,-0.168,-1.790,10.9,0.784,4,15,9,-8,94.0,63,"tags [9, 10] joint 0.9px  ref 10"
+1792283241.248,5,APPROACH,True,10,"[8, 10]",0.487,-0.404,-1.954,-20.0,1.092,-18,30,8,8,149.0,78,"tags [8, 10] joint 1.9px  ref 10"
+1792283241.248,8,APPROACH,True,10,"[9, 10]",-0.190,-0.167,-1.773,10.9,0.751,3,13,9,-8,94.0,63,"tags [9, 10] joint 0.9px  ref 10"
+1792283241.298,5,APPROACH,True,10,"[8, 10]",0.462,-0.393,-1.901,-19.9,1.039,-18,30,8,8,149.0,78,"tags [8, 10] joint 1.9px  ref 10"
+1792283241.298,8,APPROACH,True,10,"[9, 10]",-0.177,-0.169,-1.739,10.9,0.717,-3,7,8,-8,97.0,63,"tags [9, 10] joint 0.9px  ref 10"
+1792283241.348,5,APPROACH,True,10,"[8, 10]",0.462,-0.393,-1.901,-19.9,1.039,-18,30,8,8,149.0,78,"tags [8, 10] joint 1.9px  ref 10"
+1792283241.348,8,APPROACH,True,10,"[9, 10]",-0.170,-0.169,-1.722,10.8,0.701,-4,7,8,-8,97.0,63,"tags [9, 10] joint 0.9px  ref 10"
+1792283241.398,5,APPROACH,True,10,"[8, 10]",0.447,-0.389,-1.864,-19.9,1.005,-19,30,8,8,144.0,78,"tags [8, 10] joint 1.9px  ref 10"
+1792283241.398,8,APPROACH,True,10,"[9, 10]",-0.163,-0.171,-1.705,10.8,0.684,-8,4,8,-8,125.0,63,"tags [9, 10] joint 0.9px  ref 10"
+1792283241.449,5,APPROACH,True,10,"[8, 10]",0.438,-0.387,-1.846,-19.9,0.987,-19,29,8,8,135.0,78,"tags [8, 10] joint 2.0px  ref 10"
+1792283241.449,8,APPROACH,True,10,"[9, 10]",-0.149,-0.171,-1.672,10.7,0.652,-10,2,8,-8,125.0,63,"tags [9, 10] joint 1.0px  ref 10"
+1792283241.499,5,APPROACH,True,10,"[8, 10]",0.412,-0.376,-1.793,-19.7,0.934,-16,25,8,8,135.0,78,"tags [8, 10] joint 2.0px  ref 10"
+1792283241.499,8,APPROACH,True,10,"[9, 10]",-0.135,-0.172,-1.640,10.7,0.621,-14,1,8,-8,125.0,63,"tags [9, 10] joint 0.9px  ref 10"
+1792283241.549,5,APPROACH,True,10,"[8, 10]",0.412,-0.376,-1.793,-19.7,0.934,-16,24,8,8,135.0,78,"tags [8, 10] joint 2.0px  ref 10"
+1792283241.549,8,APPROACH,True,10,"[9, 10]",-0.128,-0.173,-1.625,10.7,0.606,-9,3,8,-8,137.0,63,"tags [9, 10] joint 1.0px  ref 10"
+1792283241.599,5,APPROACH,True,10,"[8, 10]",0.404,-0.374,-1.774,-19.7,0.917,-14,20,8,8,123.0,78,"tags [8, 10] joint 2.0px  ref 10"
+1792283241.599,8,APPROACH,True,10,"[9, 10]",-0.115,-0.172,-1.595,10.6,0.578,-10,3,8,-8,137.0,63,"tags [9, 10] joint 0.9px  ref 10"
+1792283241.649,5,APPROACH,True,10,"[8, 10]",0.395,-0.371,-1.756,-19.6,0.899,-11,17,8,8,123.0,78,"tags [8, 10] joint 2.2px  ref 10"
+1792283241.649,8,APPROACH,True,10,"[9, 10]",-0.109,-0.173,-1.580,10.5,0.564,-7,5,8,-8,139.0,63,"tags [9, 10] joint 1.0px  ref 10"
+1792283241.699,5,APPROACH,True,10,"[8, 10]",0.369,-0.366,-1.701,-19.4,0.848,-4,8,8,8,125.0,78,"tags [8, 10] joint 2.3px  ref 10"
+1792283241.699,8,APPROACH,True,10,"[9, 10]",-0.102,-0.173,-1.566,10.5,0.551,-7,4,8,-8,139.0,63,"tags [9, 10] joint 1.0px  ref 10"
+1792283241.749,5,APPROACH,True,10,"[8, 10]",0.361,-0.365,-1.683,-19.3,0.831,-3,8,8,8,125.0,78,"tags [8, 10] joint 2.3px  ref 10"
+1792283241.749,8,APPROACH,True,10,"[9, 10]",-0.090,-0.173,-1.540,10.4,0.526,-2,8,8,-8,139.0,63,"tags [9, 10] joint 1.1px  ref 10"
+1792283241.799,5,APPROACH,True,10,"[8, 10]",0.332,-0.359,-1.630,-18.9,0.780,7,-3,8,8,135.0,78,"tags [8, 10] joint 2.5px  ref 10"
+1792283241.799,8,APPROACH,True,10,"[9, 10]",-0.084,-0.171,-1.527,10.3,0.514,-8,3,8,-8,139.0,63,"tags [9, 10] joint 1.1px  ref 10"
+1792283241.849,5,APPROACH,True,10,"[8, 10]",0.323,-0.359,-1.612,-18.7,0.763,8,-5,8,8,135.0,78,"tags [8, 10] joint 2.5px  ref 10"
+1792283241.849,8,APPROACH,True,10,"[9, 10]",-0.073,-0.167,-1.504,10.2,0.492,-11,2,8,-8,140.0,63,"tags [9, 10] joint 1.3px  ref 10"
+1792283241.899,5,APPROACH,True,10,"[8, 10]",0.296,-0.358,-1.558,-18.2,0.715,13,-8,8,8,151.0,78,"tags [8, 10] joint 2.6px  ref 10"
+1792283241.899,8,APPROACH,True,10,[10],-0.044,-0.208,-1.474,9.4,0.452,-15,1,8,-8,140.0,63,tags [10] single 1.3px  ref 10
+1792283241.949,5,APPROACH,True,10,"[8, 10]",0.288,-0.359,-1.540,-18.1,0.700,14,-8,8,8,151.0,78,"tags [8, 10] joint 2.8px  ref 10"
+1792283241.949,8,APPROACH,True,10,[10],-0.036,-0.217,-1.461,9.3,0.439,-16,1,8,-8,140.0,63,tags [10] single 1.2px  ref 10
+1792283242.000,5,APPROACH,True,10,"[8, 10]",0.270,-0.361,-1.505,-17.7,0.670,16,-9,8,8,154.0,78,"tags [8, 10] joint 2.9px  ref 10"
+1792283242.000,8,APPROACH,True,10,[10],-0.023,-0.230,-1.439,9.0,0.427,-18,0,8,-8,140.0,63,tags [10] single 1.4px  ref 10
+1792283242.050,5,APPROACH,True,10,"[8, 10]",0.261,-0.361,-1.488,-17.5,0.655,18,-10,8,8,154.0,78,"tags [8, 10] joint 3.0px  ref 10"
+1792283242.050,8,APPROACH,True,10,[10],-0.018,-0.233,-1.429,8.9,0.409,-21,1,8,-8,140.0,63,tags [10] single 1.4px  ref 10
+1792283242.100,5,APPROACH,True,10,"[8, 10]",0.252,-0.362,-1.471,-17.3,0.641,20,-12,0,8,154.0,78,"tags [8, 10] joint 2.9px  ref 10"
+1792283242.100,8,APPROACH,True,10,[10],-0.008,-0.235,-1.411,8.6,0.392,-23,2,8,-8,140.0,63,tags [10] single 1.5px  ref 10
+1792283242.150,5,APPROACH,True,10,"[8, 10]",0.247,-0.351,-1.457,-17.2,0.632,22,-12,0,8,154.0,76,"tags [8, 10] single (map disagrees) 3.1px  ref 10"
+1792283242.150,8,APPROACH,True,10,[10],-0.005,-0.235,-1.403,8.5,0.386,-25,2,8,-8,139.0,63,tags [10] single 1.5px  ref 10
+1792283242.200,5,APPROACH,True,10,"[8, 10]",0.233,-0.350,-1.426,-16.8,0.608,25,-11,0,8,157.0,76,"tags [8, 10] single (map disagrees) 3.1px  ref 10"
+1792283242.200,8,APPROACH,True,10,[10],-0.001,-0.233,-1.396,8.3,0.380,-28,0,8,-8,139.0,63,tags [10] single 1.4px  ref 10
+1792283242.250,5,APPROACH,True,10,"[8, 10]",0.227,-0.346,-1.412,-16.7,0.599,28,-12,0,8,157.0,76,"tags [8, 10] single (map disagrees) 3.2px  ref 10"
+1792283242.250,8,APPROACH,True,10,[10],0.005,-0.233,-1.382,8.0,0.369,-30,0,8,-8,139.0,63,tags [10] single 1.6px  ref 10
+1792283242.300,5,APPROACH,True,10,"[8, 10]",0.207,-0.344,-1.370,-16.1,0.570,32,-9,0,8,157.0,76,"tags [8, 10] single (map disagrees) 3.2px  ref 10"
+1792283242.300,8,APPROACH,True,10,[10],0.009,-0.238,-1.369,7.6,0.360,-33,-4,8,-8,139.0,63,tags [10] single 1.9px  ref 10
+1792283242.350,5,APPROACH,True,10,"[8, 10]",0.199,-0.344,-1.358,-15.9,0.559,34,-9,0,8,158.0,76,"tags [8, 10] single (map disagrees) 3.3px  ref 10"
+1792283242.350,8,APPROACH,True,10,[10],0.012,-0.238,-1.364,7.3,0.356,-35,-6,8,-8,139.0,63,tags [10] single 1.8px  ref 10
+1792283242.400,5,APPROACH,True,10,"[8, 10]",0.185,-0.347,-1.334,-15.3,0.541,35,-5,0,8,158.0,76,"tags [8, 10] single (map disagrees) 3.4px  ref 10"
+1792283242.400,8,APPROACH,True,10,[10],0.016,-0.238,-1.354,6.8,0.349,-34,-8,8,-8,138.0,63,tags [10] single 1.9px  ref 10
+1792283242.450,5,APPROACH,True,10,"[8, 10]",0.185,-0.347,-1.334,-15.3,0.541,34,-6,0,8,159.0,76,"tags [8, 10] single (map disagrees) 3.4px  ref 10"
+1792283242.450,8,APPROACH,True,10,[10],0.018,-0.237,-1.349,6.6,0.346,-34,-7,8,-8,138.0,63,tags [10] single 1.9px  ref 10
+1792283242.500,5,APPROACH,True,10,"[8, 10]",0.168,-0.356,-1.300,-14.6,0.520,35,1,0,8,159.0,76,"tags [8, 10] single (map disagrees) 3.3px  ref 10"
+1792283242.500,8,APPROACH,True,10,[10],0.023,-0.236,-1.340,6.0,0.338,-33,-13,8,-8,138.0,63,tags [10] single 2.1px  ref 10
+1792283242.551,5,APPROACH,True,10,"[8, 10]",0.168,-0.356,-1.300,-14.6,0.520,35,0,0,8,161.0,76,"tags [8, 10] single (map disagrees) 3.3px  ref 10"
+1792283242.551,8,APPROACH,True,10,[10],0.025,-0.234,-1.335,5.7,0.336,-33,-12,8,-8,138.0,63,tags [10] single 2.0px  ref 10
+1792283242.601,5,APPROACH,True,10,"[8, 10]",0.156,-0.365,-1.269,-13.8,0.506,34,7,-8,8,161.0,76,"tags [8, 10] single (map disagrees) 3.3px  ref 10"
+1792283242.601,8,APPROACH,True,10,[10],0.029,-0.233,-1.325,5.0,0.332,-30,-18,8,-8,136.0,63,tags [10] single 2.3px  ref 10
+1792283242.651,5,APPROACH,True,10,[10],0.152,-0.368,-1.260,-13.5,0.502,34,8,-8,8,160.0,76,tags [10] single 0.5px  ref 10
+1792283242.651,8,APPROACH,True,10,[10],0.033,-0.229,-1.321,4.6,0.325,-30,-18,8,-8,136.0,63,tags [10] single 2.3px  ref 10
+1792283242.701,5,APPROACH,True,10,[10],0.148,-0.372,-1.243,-12.9,0.499,33,11,-8,8,160.0,76,tags [10] single 0.4px  ref 10
+1792283242.701,8,APPROACH,True,10,[10],0.039,-0.226,-1.311,3.7,0.320,-28,-21,8,-8,136.0,63,tags [10] single 2.6px  ref 10
+1792283242.751,5,APPROACH,True,10,[10],0.148,-0.376,-1.234,-12.6,0.499,32,13,-8,8,161.0,76,tags [10] single 0.4px  ref 10
+1792283242.751,8,APPROACH,True,10,[10],0.046,-0.220,-1.307,3.0,0.309,-27,-22,8,-8,136.0,63,tags [10] single 2.5px  ref 10
+1792283242.801,5,APPROACH,True,10,[10],0.153,-0.379,-1.219,-12.1,0.504,31,16,-8,8,161.0,76,tags [10] single 0.6px  ref 10
+1792283242.801,8,APPROACH,True,10,[10],0.063,-0.209,-1.300,1.6,0.300,-26,-24,8,-8,136.0,63,tags [10] single 2.9px  ref 10
+1792283242.851,5,APPROACH,True,10,[10],0.155,-0.380,-1.212,-11.8,0.507,31,17,-8,8,160.0,76,tags [10] single 0.6px  ref 10
+1792283242.851,8,APPROACH,True,10,[10],0.063,-0.209,-1.300,1.6,0.291,-25,-25,8,-8,136.0,63,no valid tag pose
+1792283242.901,5,APPROACH,True,10,[10],0.166,-0.380,-1.198,-11.3,0.518,30,18,-8,0,160.0,76,tags [10] single 0.8px  ref 10
+1792283242.901,8,APPROACH,True,10,[10],0.063,-0.209,-1.300,1.6,0.291,-24,-25,8,-8,135.0,63,no valid tag pose
+1792283242.951,5,APPROACH,True,10,[10],0.172,-0.380,-1.191,-11.1,0.526,30,18,-8,0,161.0,76,tags [10] single 0.8px  ref 10
+1792283242.951,8,APPROACH,True,10,[10],0.063,-0.209,-1.300,1.6,0.291,-24,-25,8,-8,135.0,63,no valid tag pose
+1792283243.001,5,APPROACH,True,10,[10],0.188,-0.380,-1.179,-10.6,0.543,30,19,-8,0,161.0,76,tags [10] single 1.0px  ref 10
+1792283243.001,8,APPROACH,True,10,[10],0.063,-0.209,-1.300,1.6,0.291,-24,-25,8,-8,134.0,63,no valid tag pose
+1792283243.051,5,APPROACH,True,10,[10],0.188,-0.380,-1.179,-10.6,0.543,30,19,-8,0,161.0,76,tags [10] single 1.0px  ref 10
+1792283243.051,8,APPROACH,True,10,[10],0.063,-0.209,-1.300,1.6,0.291,-24,-25,8,-8,134.0,63,no valid tag pose
+1792283243.102,5,APPROACH,True,10,[10],0.219,-0.382,-1.159,-10.0,0.576,30,19,-8,0,161.0,76,tags [10] single 1.0px  ref 10
+1792283243.102,8,APPROACH,True,10,[10],0.063,-0.209,-1.300,1.6,0.291,-25,-24,8,-8,134.0,63,no valid tag pose
+1792283243.152,5,APPROACH,True,10,[10],0.219,-0.382,-1.159,-10.0,0.576,30,19,-8,0,161.0,76,tags [10] single 1.0px  ref 10
+1792283243.152,8,APPROACH,True,10,[10],0.063,-0.209,-1.300,1.6,0.291,-25,-24,8,-8,134.0,63,no valid tag pose
+1792283243.202,5,APPROACH,True,10,[10],0.219,-0.382,-1.159,-10.0,0.576,30,19,-8,0,161.0,76,tags [10] single 1.0px  ref 10
+1792283243.202,8,APPROACH,True,10,[10],0.063,-0.209,-1.300,1.6,0.291,-25,-24,8,-8,134.0,63,no valid tag pose
+1792283243.252,5,APPROACH,True,10,[10],0.254,-0.381,-1.140,-9.6,0.615,28,17,-8,-8,160.0,76,tags [10] single 1.1px  ref 10
+1792283243.252,8,APPROACH,True,10,[10],0.063,-0.209,-1.300,1.6,0.291,-25,-22,8,-8,134.0,63,no valid tag pose
+1792283243.302,5,APPROACH,True,10,[10],0.296,-0.382,-1.118,-9.4,0.660,30,16,-8,-8,161.0,76,tags [10] single 1.2px  ref 10
+1792283243.302,8,APPROACH,False,10,[10],0.063,-0.209,-1.300,1.6,0.291,0,0,1,0,134.0,63,no valid tag pose
+1792283243.352,5,APPROACH,True,10,[10],0.311,-0.382,-1.111,-9.4,0.676,20,10,-8,-8,161.0,76,tags [10] single 1.2px  ref 10
+1792283243.352,8,APPROACH,False,10,[10],0.063,-0.209,-1.300,1.6,0.291,0,0,1,0,134.0,63,no valid tag pose
+1792283243.402,5,APPROACH,True,10,[10],0.340,-0.381,-1.095,-9.3,0.708,19,9,-8,-9,161.0,76,tags [10] single 1.3px  ref 10
+1792283243.402,8,APPROACH,False,10,[10],0.063,-0.209,-1.300,1.6,0.291,0,0,1,0,134.0,63,no valid tag pose
+1792283243.452,5,APPROACH,True,10,[10],0.355,-0.381,-1.087,-9.3,0.724,-29,-2,-8,-9,161.0,76,tags [10] single 1.2px  ref 10
+1792283243.452,8,APPROACH,True,10,[10],-0.198,0.019,-1.382,2.6,0.563,15,4,8,8,134.0,63,tags [10] single 3.0px  ref 10
+1792283243.502,5,APPROACH,True,10,[10],0.371,-0.382,-1.079,-9.3,0.741,-30,-2,-8,-10,161.0,76,tags [10] single 1.4px  ref 10
+1792283243.502,8,APPROACH,True,10,[10],-0.209,0.010,-1.389,2.6,0.576,9,1,8,8,134.0,63,tags [10] single 2.5px  ref 10
+1792283243.552,5,APPROACH,True,10,[10],0.402,-0.381,-1.062,-9.2,0.776,-31,-3,-8,-12,159.0,76,tags [10] single 1.4px  ref 10
+1792283243.552,8,APPROACH,True,10,[10],-0.215,0.005,-1.395,2.4,0.583,14,4,8,8,134.0,63,tags [10] single 2.5px  ref 10
+1792283243.602,5,APPROACH,True,10,[10],0.435,-0.381,-1.044,-9.2,0.812,-32,-3,-8,-14,159.0,76,tags [10] single 1.5px  ref 10
+1792283243.602,8,APPROACH,True,10,[10],-0.242,-0.004,-1.407,2.7,0.612,14,4,8,8,134.0,63,tags [10] single 2.2px  ref 10
+1792283243.652,5,APPROACH,True,10,[10],0.452,-0.379,-1.036,-9.1,0.830,-33,-3,-8,-15,135.0,76,tags [10] single 1.6px  ref 10
+1792283243.652,8,APPROACH,True,10,[10],-0.257,-0.007,-1.413,2.8,0.628,14,5,8,8,134.0,63,tags [10] single 2.1px  ref 10
+1792283243.702,5,APPROACH,True,10,[10],0.452,-0.379,-1.036,-9.1,0.830,-33,-3,-8,-15,135.0,76,no valid tag pose
+1792283243.702,8,APPROACH,True,10,[10],-0.283,-0.014,-1.427,3.0,0.642,14,5,8,8,133.0,63,tags [10] single 1.9px  ref 10
+1792283243.753,5,APPROACH,True,10,[10],0.452,-0.379,-1.036,-9.1,0.830,-33,-3,-8,-15,117.0,76,no trusted tag in view
+1792283243.753,8,APPROACH,True,10,[10],-0.297,-0.016,-1.434,3.1,0.672,14,5,8,9,133.0,63,tags [10] single 1.9px  ref 10
+1792283243.803,5,APPROACH,True,10,[10],0.452,-0.379,-1.036,-9.1,0.830,-33,-3,-8,-15,117.0,76,no trusted tag in view
+1792283243.803,8,APPROACH,True,10,[10],-0.326,-0.025,-1.447,3.4,0.704,14,5,9,10,133.0,63,tags [10] single 1.6px  ref 10
+1792283243.853,5,APPROACH,True,10,[10],0.452,-0.379,-1.036,-9.1,0.830,-33,-3,-8,-15,116.0,76,no trusted tag in view
+1792283243.853,8,APPROACH,True,10,[10],-0.339,-0.027,-1.453,3.5,0.718,14,5,9,10,133.0,63,tags [10] single 1.5px  ref 10
+1792283243.903,5,APPROACH,True,10,[10],0.452,-0.379,-1.036,-9.1,0.830,-33,-3,-8,-15,116.0,76,no trusted tag in view
+1792283243.903,8,APPROACH,True,10,[10],-0.364,-0.033,-1.465,3.7,0.745,14,5,9,10,133.0,63,tags [10] single 1.4px  ref 10
+1792283243.953,5,APPROACH,True,10,[10],0.452,-0.379,-1.036,-9.1,0.830,-33,-3,-8,-15,116.0,76,no trusted tag in view
+1792283243.953,8,APPROACH,True,10,[10],-0.374,-0.036,-1.472,3.7,0.757,14,5,9,11,133.0,63,tags [10] single 1.3px  ref 10
+1792283244.003,5,APPROACH,True,10,[10],0.452,-0.379,-1.036,-9.1,0.830,-33,-3,-8,-15,116.0,76,no trusted tag in view
+1792283244.003,8,APPROACH,True,10,[10],-0.392,-0.038,-1.485,3.8,0.778,14,5,9,11,133.0,63,tags [10] single 1.3px  ref 10
+1792283244.053,5,APPROACH,True,10,[10],0.452,-0.379,-1.036,-9.1,0.830,-33,-3,-8,-15,115.0,76,no trusted tag in view
+1792283244.053,8,APPROACH,True,10,[10],-0.401,-0.040,-1.491,3.8,0.788,14,5,9,11,133.0,63,tags [10] single 1.2px  ref 10
+1792283244.103,5,APPROACH,True,10,[10],0.452,-0.379,-1.036,-9.1,0.830,-33,-3,-8,-15,115.0,76,no trusted tag in view
+1792283244.103,8,APPROACH,True,10,[10],-0.425,-0.044,-1.507,4.0,0.816,14,6,9,12,133.0,63,tags [10] single 1.1px  ref 10
+1792283244.154,5,APPROACH,False,10,[10],0.452,-0.379,-1.036,-9.1,0.830,0,0,22,-12,114.0,76,no trusted tag in view
+1792283244.154,8,APPROACH,True,10,[10],-0.425,-0.044,-1.507,4.0,0.816,14,6,9,12,133.0,63,tags [10] single 1.1px  ref 10
+1792283244.204,5,APPROACH,False,10,[10],0.452,-0.379,-1.036,-9.1,0.830,0,0,22,-12,114.0,76,no trusted tag in view
+1792283244.204,8,APPROACH,True,10,[10],-0.438,-0.047,-1.517,4.1,0.832,14,6,9,12,133.0,63,tags [10] single 1.0px  ref 10
+1792283244.254,5,APPROACH,False,10,[10],0.452,-0.379,-1.036,-9.1,0.830,0,0,22,-12,114.0,76,no trusted tag in view
+1792283244.254,8,APPROACH,True,10,[10],-0.444,-0.049,-1.522,4.2,0.839,14,6,9,12,133.0,63,tags [10] single 0.9px  ref 10
+1792283244.304,5,APPROACH,False,10,[10],0.452,-0.379,-1.036,-9.1,0.830,0,0,22,-12,114.0,76,no trusted tag in view
+1792283244.304,8,APPROACH,True,10,[10],-0.453,-0.052,-1.533,4.3,0.851,14,6,10,12,133.0,63,tags [10] single 0.9px  ref 10
+1792283244.354,5,APPROACH,False,10,[10],0.452,-0.379,-1.036,-9.1,0.830,0,0,23,-12,113.0,76,no trusted tag in view
+1792283244.354,8,APPROACH,True,10,[10],-0.457,-0.054,-1.538,4.4,0.856,14,6,10,12,133.0,63,tags [10] single 0.8px  ref 10
+1792283244.404,5,APPROACH,False,10,[10],0.452,-0.379,-1.036,-9.1,0.830,0,0,23,-12,113.0,76,no trusted tag in view
+1792283244.404,8,APPROACH,True,10,[10],-0.465,-0.056,-1.546,4.7,0.867,14,6,10,11,133.0,63,tags [10] single 0.8px  ref 10
+1792283244.454,5,APPROACH,False,10,[10],0.452,-0.379,-1.036,-9.1,0.830,0,0,23,-12,113.0,76,no trusted tag in view
+1792283244.454,8,APPROACH,True,10,[10],-0.468,-0.058,-1.551,4.9,0.871,14,6,10,11,132.0,63,tags [10] single 0.8px  ref 10
+1792283244.504,5,APPROACH,False,10,[10],0.452,-0.379,-1.036,-9.1,0.830,0,0,23,-12,113.0,76,no trusted tag in view
+1792283244.504,8,APPROACH,True,10,[10],-0.472,-0.062,-1.560,5.2,0.877,14,7,10,11,132.0,63,tags [10] single 0.7px  ref 10
+1792283244.554,5,APPROACH,False,10,[10],0.452,-0.379,-1.036,-9.1,0.830,0,0,22,-12,114.0,76,no trusted tag in view
+1792283244.554,8,APPROACH,True,10,[10],-0.473,-0.064,-1.564,5.3,0.880,13,7,10,11,133.0,63,tags [10] single 0.7px  ref 10
+1792283244.604,5,APPROACH,False,10,[10],0.452,-0.379,-1.036,-9.1,0.830,0,0,22,-12,114.0,76,no trusted tag in view
+1792283244.604,8,APPROACH,True,10,[10],-0.475,-0.068,-1.572,5.6,0.885,13,7,10,10,133.0,63,tags [10] single 0.7px  ref 10
+1792283244.654,5,APPROACH,False,10,[10],0.452,-0.379,-1.036,-9.1,0.830,0,0,22,-12,114.0,76,no trusted tag in view
+1792283244.654,8,APPROACH,True,10,[10],-0.475,-0.070,-1.575,5.7,0.886,13,7,10,10,133.0,63,tags [10] single 0.7px  ref 10
+1792283244.704,5,APPROACH,False,10,[10],0.452,-0.379,-1.036,-9.1,0.830,0,0,22,-12,114.0,76,no trusted tag in view
+1792283244.704,8,APPROACH,True,10,[10],-0.475,-0.077,-1.582,6.0,0.889,13,7,9,10,133.0,63,tags [10] single 0.6px  ref 10
+1792283244.755,5,APPROACH,False,10,[10],0.452,-0.379,-1.036,-9.1,0.830,0,0,22,-12,114.0,76,no trusted tag in view
+1792283244.755,8,APPROACH,True,10,[10],-0.476,-0.078,-1.585,6.2,0.890,13,7,9,10,132.0,63,tags [10] single 0.6px  ref 10
+1792283244.805,5,APPROACH,False,10,[10],0.452,-0.379,-1.036,-9.1,0.830,0,0,22,-12,114.0,76,no trusted tag in view
+1792283244.805,8,APPROACH,True,10,[10],-0.472,-0.083,-1.592,6.4,0.889,13,7,9,9,132.0,63,tags [10] single 0.6px  ref 10
+1792283244.855,5,APPROACH,False,10,[10],0.452,-0.379,-1.036,-9.1,0.830,0,0,21,-12,116.0,76,no trusted tag in view
+1792283244.855,8,APPROACH,True,10,[10],-0.469,-0.086,-1.596,6.4,0.888,13,7,9,9,130.0,63,tags [10] single 0.5px  ref 10
+1792283244.905,5,APPROACH,False,10,[10],0.452,-0.379,-1.036,-9.1,0.830,0,0,21,-12,116.0,76,no trusted tag in view
+1792283244.905,8,APPROACH,True,10,[10],-0.466,-0.090,-1.601,6.7,0.888,13,7,9,9,130.0,63,tags [10] single 0.5px  ref 10
+1792283244.955,5,APPROACH,False,10,[10],0.452,-0.379,-1.036,-9.1,0.830,0,0,21,-12,117.0,76,no trusted tag in view
+1792283244.955,8,APPROACH,True,10,[10],-0.463,-0.092,-1.604,6.8,0.886,13,8,9,8,130.0,63,tags [10] single 0.5px  ref 10
+1792283245.005,5,APPROACH,False,10,[10],0.452,-0.379,-1.036,-9.1,0.830,0,0,21,-12,117.0,76,no trusted tag in view
+1792283245.005,8,APPROACH,True,10,[10],-0.456,-0.097,-1.609,7.0,0.882,13,8,9,8,130.0,63,tags [10] single 0.5px  ref 10
+1792283245.055,5,APPROACH,False,10,[10],0.452,-0.379,-1.036,-9.1,0.830,0,0,16,-12,126.0,76,no trusted tag in view
+1792283245.055,8,APPROACH,True,10,[10],-0.453,-0.099,-1.612,7.1,0.880,13,8,9,8,129.0,63,tags [10] single 0.5px  ref 10
+1792283245.105,5,APPROACH,False,10,[10],0.452,-0.379,-1.036,-9.1,0.830,0,0,14,-12,131.0,76,no trusted tag in view
+1792283245.105,8,APPROACH,True,10,[10],-0.441,-0.105,-1.618,7.3,0.872,13,8,9,8,129.0,63,tags [10] single 0.5px  ref 10
+1792283245.155,5,APPROACH,False,10,[10],0.452,-0.379,-1.036,-9.1,0.830,0,0,17,-12,124.0,76,no trusted tag in view
+1792283245.155,8,APPROACH,True,10,[10],-0.441,-0.105,-1.618,7.3,0.872,13,8,9,8,128.0,63,tags [10] single 0.5px  ref 10
+1792283245.205,5,APPROACH,False,10,[10],0.452,-0.379,-1.036,-9.1,0.830,0,0,17,-12,124.0,76,no trusted tag in view
+1792283245.205,8,APPROACH,True,10,[10],-0.433,-0.110,-1.622,7.5,0.866,13,8,9,8,128.0,63,tags [10] single 0.4px  ref 10
+1792283245.255,5,APPROACH,False,10,[10],0.452,-0.379,-1.036,-9.1,0.830,0,0,17,-12,124.0,76,no trusted tag in view
+1792283245.255,8,APPROACH,True,10,[10],-0.428,-0.111,-1.624,7.6,0.862,13,8,9,8,128.0,63,tags [10] single 0.5px  ref 10
+1792283245.305,5,APPROACH,False,10,[10],0.452,-0.379,-1.036,-9.1,0.830,0,0,19,-12,121.0,76,no trusted tag in view
+1792283245.305,8,APPROACH,True,10,"[8, 10]",-0.413,-0.120,-1.628,7.5,0.851,12,8,9,8,128.0,63,"tags [8, 10] joint 2.5px  ref 10"
+1792283245.356,5,APPROACH,False,10,[10],0.452,-0.379,-1.036,-9.1,0.830,0,0,19,-12,121.0,76,no trusted tag in view
+1792283245.356,8,APPROACH,True,10,"[8, 10]",-0.410,-0.126,-1.629,7.7,0.848,12,8,8,8,128.0,63,"tags [8, 10] joint 1.5px  ref 10"
+1792283245.406,5,APPROACH,False,10,[10],0.452,-0.379,-1.036,-9.1,0.830,0,0,19,-12,121.0,76,no trusted tag in view
+1792283245.406,8,APPROACH,True,10,"[8, 10]",-0.401,-0.137,-1.632,7.9,0.842,12,9,8,8,128.0,63,"tags [8, 10] joint 1.3px  ref 10"
+1792283245.456,5,APPROACH,False,10,[10],0.452,-0.379,-1.036,-9.1,0.830,0,0,19,-12,121.0,76,no trusted tag in view
+1792283245.456,8,APPROACH,True,10,"[8, 10]",-0.396,-0.140,-1.633,7.9,0.838,12,9,8,8,127.0,63,"tags [8, 10] joint 1.4px  ref 10"
+1792283245.506,5,APPROACH,False,10,[10],0.452,-0.379,-1.036,-9.1,0.830,0,0,19,-12,121.0,76,no trusted tag in view
+1792283245.506,8,APPROACH,True,10,"[8, 10]",-0.386,-0.146,-1.635,8.1,0.829,12,9,8,8,127.0,63,"tags [8, 10] joint 1.3px  ref 10"
+1792283245.556,5,APPROACH,False,10,[10],0.452,-0.379,-1.036,-9.1,0.830,0,0,19,-12,121.0,76,no trusted tag in view
+1792283245.556,8,APPROACH,True,10,"[8, 10]",-0.378,-0.142,-1.636,8.1,0.823,12,9,8,8,128.0,63,"tags [8, 10] joint 1.1px  ref 10"
+1792283245.606,5,APPROACH,False,10,[10],0.452,-0.379,-1.036,-9.1,0.830,0,0,19,-12,121.0,76,no trusted tag in view
+1792283245.606,8,APPROACH,True,10,[10],-0.368,-0.141,-1.637,8.2,0.814,12,9,8,8,128.0,63,tags [10] single 0.3px  ref 10
+1792283245.656,5,APPROACH,False,10,[10],0.452,-0.379,-1.036,-9.1,0.830,0,0,19,-12,121.0,76,no trusted tag in view
+1792283245.656,8,APPROACH,True,10,[10],-0.363,-0.142,-1.636,8.3,0.810,12,9,8,8,128.0,63,tags [10] single 0.3px  ref 10
+1792283245.706,5,APPROACH,False,10,[10],0.452,-0.379,-1.036,-9.1,0.830,0,0,18,-12,122.0,76,no trusted tag in view
+1792283245.706,8,APPROACH,True,10,[10],-0.350,-0.148,-1.638,8.4,0.799,12,9,8,8,128.0,63,tags [10] single 0.3px  ref 10
+1792283245.757,5,APPROACH,False,10,[10],0.452,-0.379,-1.036,-9.1,0.830,0,0,18,-12,122.0,76,no trusted tag in view
+1792283245.757,8,APPROACH,True,10,[10],-0.342,-0.151,-1.638,8.4,0.793,12,9,8,0,128.0,63,tags [10] single 0.3px  ref 10
+1792283245.807,5,APPROACH,False,10,[10],0.452,-0.379,-1.036,-9.1,0.830,0,0,18,-12,122.0,76,no trusted tag in view
+1792283245.807,8,APPROACH,True,10,[10],-0.329,-0.155,-1.640,8.4,0.782,12,9,8,0,128.0,63,tags [10] single 0.3px  ref 10
+1792283245.857,5,APPROACH,False,10,[10],0.452,-0.379,-1.036,-9.1,0.830,0,0,18,-12,122.0,76,no trusted tag in view
+1792283245.857,8,APPROACH,True,10,[10],-0.322,-0.158,-1.640,8.4,0.776,12,9,8,0,128.0,63,tags [10] single 0.3px  ref 10
+1792283245.907,5,APPROACH,False,10,[10],0.452,-0.379,-1.036,-9.1,0.830,0,0,18,-12,122.0,76,no trusted tag in view
+1792283245.907,8,APPROACH,True,10,[10],-0.309,-0.162,-1.641,8.4,0.765,12,9,8,0,128.0,63,tags [10] single 0.3px  ref 10
+1792283245.957,5,APPROACH,False,10,[10],0.452,-0.379,-1.036,-9.1,0.830,0,0,18,-12,122.0,76,no trusted tag in view
+1792283245.957,8,APPROACH,True,10,[10],-0.303,-0.163,-1.641,8.5,0.760,12,9,8,0,128.0,63,tags [10] single 0.3px  ref 10
+1792283246.007,5,APPROACH,False,10,[10],0.452,-0.379,-1.036,-9.1,0.830,0,0,18,-12,123.0,76,no trusted tag in view
+1792283246.007,8,APPROACH,True,10,[10],-0.289,-0.168,-1.641,8.5,0.748,12,10,8,0,128.0,63,tags [10] single 0.3px  ref 10
+1792283246.057,5,APPROACH,False,10,[10],0.452,-0.379,-1.036,-9.1,0.830,0,0,18,-12,123.0,76,no trusted tag in view
+1792283246.057,8,APPROACH,True,10,[10],-0.281,-0.170,-1.641,8.4,0.741,12,10,8,0,128.0,63,tags [10] single 0.4px  ref 10
+1792283246.107,5,APPROACH,False,10,[10],0.452,-0.379,-1.036,-9.1,0.830,0,0,18,-12,123.0,76,no trusted tag in view
+1792283246.107,8,APPROACH,True,10,[10],-0.265,-0.176,-1.640,8.5,0.727,12,10,8,0,128.0,63,tags [10] single 0.4px  ref 10
+1792283246.157,5,APPROACH,False,10,[10],0.452,-0.379,-1.036,-9.1,0.830,0,0,18,-12,123.0,76,no trusted tag in view
+1792283246.157,8,APPROACH,True,10,[10],-0.265,-0.176,-1.640,8.5,0.727,12,10,8,0,129.0,63,tags [10] single 0.4px  ref 10
+1792283246.207,5,APPROACH,False,10,[10],0.452,-0.379,-1.036,-9.1,0.830,0,0,17,-12,124.0,76,no trusted tag in view
+1792283246.207,8,APPROACH,True,10,[10],-0.250,-0.181,-1.639,8.3,0.714,12,9,8,0,129.0,63,tags [10] single 0.4px  ref 10
+1792283246.257,5,APPROACH,False,10,[10],0.452,-0.379,-1.036,-9.1,0.830,0,0,17,-12,124.0,76,no trusted tag in view
+1792283246.257,8,APPROACH,True,10,[10],-0.245,-0.181,-1.639,8.3,0.709,10,8,8,0,128.0,63,tags [10] single 0.4px  ref 10
+1792283246.307,5,APPROACH,False,10,[10],0.452,-0.379,-1.036,-9.1,0.830,0,0,17,-12,125.0,76,no trusted tag in view
+1792283246.307,8,APPROACH,True,10,[10],-0.235,-0.187,-1.637,8.4,0.700,8,6,8,0,131.0,63,tags [10] single 0.3px  ref 10
+1792283246.358,5,APPROACH,False,10,[10],0.452,-0.379,-1.036,-9.1,0.830,0,0,17,-12,125.0,76,no trusted tag in view
+1792283246.358,8,APPROACH,True,10,[10],-0.228,-0.190,-1.636,8.3,0.694,7,5,8,0,131.0,63,tags [10] single 0.4px  ref 10
+1792283246.408,5,APPROACH,False,10,[10],0.452,-0.379,-1.036,-9.1,0.830,0,0,17,-12,125.0,76,no trusted tag in view
+1792283246.408,8,APPROACH,True,10,[10],-0.220,-0.195,-1.633,8.4,0.686,7,4,8,0,129.0,63,tags [10] single 0.4px  ref 10
+1792283246.458,5,APPROACH,False,10,[10],0.452,-0.379,-1.036,-9.1,0.830,0,0,17,-12,125.0,76,no trusted tag in view
+1792283246.458,8,APPROACH,True,10,[10],-0.213,-0.198,-1.632,8.4,0.679,8,0,8,0,129.0,63,tags [10] single 0.4px  ref 10
+1792283246.508,5,APPROACH,False,10,[10],0.452,-0.379,-1.036,-9.1,0.830,0,0,17,-12,125.0,76,no trusted tag in view
+1792283246.508,8,APPROACH,True,10,[10],-0.203,-0.204,-1.629,8.4,0.669,-3,-8,8,0,133.0,63,tags [10] single 0.3px  ref 10
+1792283246.558,5,APPROACH,False,10,[10],0.452,-0.379,-1.036,-9.1,0.830,0,0,16,-12,126.0,76,no trusted tag in view
+1792283246.558,8,APPROACH,True,10,[10],-0.195,-0.207,-1.629,8.3,0.662,-4,-7,8,0,133.0,63,tags [10] single 0.4px  ref 10
+1792283246.608,5,APPROACH,False,10,[10],0.452,-0.379,-1.036,-9.1,0.830,0,0,16,-12,127.0,76,no trusted tag in view
+1792283246.608,8,APPROACH,True,10,[10],-0.186,-0.212,-1.625,8.4,0.653,-5,-7,8,0,134.0,63,tags [10] single 0.3px  ref 10
+1792283246.658,5,APPROACH,False,10,[10],0.452,-0.379,-1.036,-9.1,0.830,0,0,16,-12,127.0,76,no trusted tag in view
+1792283246.658,8,APPROACH,True,10,[10],-0.181,-0.214,-1.623,8.4,0.648,-7,-8,8,0,134.0,63,tags [10] single 0.4px  ref 10
+1792283246.708,5,APPROACH,False,10,[10],0.452,-0.379,-1.036,-9.1,0.830,0,0,16,-12,127.0,76,no trusted tag in view
+1792283246.708,8,APPROACH,True,10,[10],-0.169,-0.217,-1.621,8.4,0.637,-8,-10,8,0,136.0,63,tags [10] single 0.4px  ref 10
+1792283246.758,5,APPROACH,False,10,[10],0.452,-0.379,-1.036,-9.1,0.830,0,0,16,-12,127.0,76,no trusted tag in view
+1792283246.758,8,APPROACH,True,10,[10],-0.162,-0.221,-1.620,8.3,0.630,-8,-11,8,-8,136.0,63,tags [10] single 0.5px  ref 10
+1792283246.808,5,APPROACH,False,10,[10],0.452,-0.379,-1.036,-9.1,0.830,0,0,16,-12,127.0,76,no trusted tag in view
+1792283246.808,8,APPROACH,True,10,[10],-0.151,-0.226,-1.617,8.4,0.620,-9,-11,8,-8,136.0,63,tags [10] single 0.4px  ref 10
+1792283246.858,5,APPROACH,False,10,[10],0.452,-0.379,-1.036,-9.1,0.830,0,0,16,-12,127.0,76,no trusted tag in view
+1792283246.858,8,APPROACH,True,10,[10],-0.146,-0.226,-1.616,8.4,0.615,-9,-12,8,-8,136.0,63,tags [10] single 0.4px  ref 10
+1792283246.908,5,APPROACH,False,10,[10],0.452,-0.379,-1.036,-9.1,0.830,0,0,15,-12,128.0,76,no trusted tag in view
+1792283246.908,8,APPROACH,True,10,[10],-0.137,-0.231,-1.614,8.4,0.607,-10,-13,8,-8,137.0,63,tags [10] single 0.6px  ref 10
+1792283246.958,5,APPROACH,False,10,[10],0.452,-0.379,-1.036,-9.1,0.830,0,0,15,-12,128.0,76,no trusted tag in view
+1792283246.958,8,APPROACH,True,10,[10],-0.131,-0.232,-1.613,8.4,0.602,-10,-13,8,-8,137.0,63,tags [10] single 0.5px  ref 10
+1792283247.009,5,APPROACH,False,10,[10],0.452,-0.379,-1.036,-9.1,0.830,0,0,15,-12,128.0,76,no trusted tag in view
+1792283247.009,8,APPROACH,True,10,"[9, 10]",-0.146,-0.198,-1.615,9.2,0.615,-10,-13,8,-8,137.0,63,"tags [9, 10] joint 1.1px  ref 10"
+1792283247.059,5,APPROACH,False,10,[10],0.452,-0.379,-1.036,-9.1,0.830,0,0,15,-12,128.0,76,no trusted tag in view
+1792283247.059,8,APPROACH,True,10,"[9, 10]",-0.147,-0.193,-1.616,9.4,0.616,-10,-14,8,-8,135.0,63,"tags [9, 10] joint 1.1px  ref 10"
+1792283247.109,5,APPROACH,False,10,[10],0.452,-0.379,-1.036,-9.1,0.830,0,0,15,-12,129.0,76,no trusted tag in view
+1792283247.109,8,APPROACH,True,10,"[9, 10]",-0.140,-0.182,-1.617,9.5,0.611,-10,-14,8,-8,135.0,63,"tags [9, 10] joint 1.2px  ref 10"
+1792283247.159,5,APPROACH,False,10,[10],0.452,-0.379,-1.036,-9.1,0.830,0,0,15,-12,129.0,76,no trusted tag in view
+1792283247.159,8,APPROACH,True,10,"[9, 10]",-0.140,-0.182,-1.617,9.5,0.611,-11,-15,8,-8,138.0,63,"tags [9, 10] joint 1.2px  ref 10"
+1792283247.209,5,APPROACH,False,10,[10],0.452,-0.379,-1.036,-9.1,0.830,0,0,15,-12,129.0,76,no trusted tag in view
+1792283247.209,8,APPROACH,True,10,"[9, 10]",-0.132,-0.178,-1.617,9.5,0.605,-11,-15,8,-8,138.0,63,"tags [9, 10] joint 1.2px  ref 10"
+1792283247.259,5,APPROACH,False,10,[10],0.452,-0.379,-1.036,-9.1,0.830,0,0,15,-12,129.0,76,no trusted tag in view
+1792283247.259,8,APPROACH,True,10,"[9, 10]",-0.126,-0.175,-1.618,9.4,0.600,-11,-16,8,-8,138.0,63,"tags [9, 10] joint 1.2px  ref 10"
+1792283247.309,5,APPROACH,False,10,[10],0.452,-0.379,-1.036,-9.1,0.830,0,0,14,-12,130.0,73,no trusted tag in view
+1792283247.309,8,APPROACH,True,10,"[9, 10]",-0.124,-0.176,-1.618,9.5,0.599,-12,-16,8,-8,138.0,63,"tags [9, 10] joint 1.2px  ref 10"
+1792283247.359,5,APPROACH,False,10,[10],0.452,-0.379,-1.036,-9.1,0.830,0,0,14,-12,130.0,73,no trusted tag in view
+1792283247.359,8,APPROACH,True,10,"[9, 10]",-0.122,-0.175,-1.618,9.5,0.598,-12,-17,8,-8,138.0,63,"tags [9, 10] joint 1.2px  ref 10"
+1792283247.409,5,APPROACH,False,10,[10],0.452,-0.379,-1.036,-9.1,0.830,0,0,14,-12,131.0,73,no trusted tag in view
+1792283247.409,8,APPROACH,True,10,"[9, 10]",-0.122,-0.179,-1.618,9.6,0.598,-12,-17,8,-8,138.0,63,"tags [9, 10] joint 1.2px  ref 10"
+1792283247.459,5,APPROACH,False,10,[10],0.452,-0.379,-1.036,-9.1,0.830,0,0,14,-12,131.0,73,no trusted tag in view
+1792283247.459,8,APPROACH,True,10,"[9, 10]",-0.123,-0.178,-1.618,9.6,0.598,-12,-18,8,-8,138.0,63,"tags [9, 10] joint 1.2px  ref 10"
+1792283247.509,5,APPROACH,False,10,[10],0.452,-0.379,-1.036,-9.1,0.830,0,0,14,-12,131.0,73,no trusted tag in view
+1792283247.509,8,APPROACH,True,10,"[9, 10]",-0.123,-0.178,-1.618,9.5,0.598,-13,-18,8,-8,138.0,63,"tags [9, 10] joint 1.5px  ref 10"
+1792283247.559,5,APPROACH,False,10,[10],0.452,-0.379,-1.036,-9.1,0.830,0,0,14,-12,131.0,73,no trusted tag in view
+1792283247.559,8,APPROACH,True,10,"[9, 10]",-0.121,-0.176,-1.619,9.4,0.597,-13,-18,8,-8,137.0,63,"tags [9, 10] joint 1.5px  ref 10"
+1792283247.609,5,APPROACH,False,10,[10],0.452,-0.379,-1.036,-9.1,0.830,0,0,14,-12,131.0,73,no trusted tag in view
+1792283247.609,8,APPROACH,True,10,"[9, 10]",-0.114,-0.162,-1.623,8.9,0.594,-13,-19,8,-8,137.0,63,"tags [9, 10] joint 2.0px  ref 10"
+1792283247.659,5,APPROACH,False,10,[10],0.452,-0.379,-1.036,-9.1,0.830,0,0,14,-12,131.0,73,no trusted tag in view
+1792283247.659,8,APPROACH,True,10,[10],-0.088,-0.190,-1.622,7.9,0.573,-14,-20,8,-8,136.0,63,tags [10] single 0.9px  ref 10
+1792283247.710,8,APPROACH,True,10,[10],-0.061,-0.209,-1.623,6.6,0.554,-15,-21,8,-8,136.0,63,tags [10] single 0.9px  ref 10
+1792283247.760,8,APPROACH,True,10,[10],-0.055,-0.211,-1.625,6.2,0.475,-15,-22,8,-8,138.0,63,tags [10] single 0.8px  ref 10
+1792283247.810,8,APPROACH,True,10,[10],-0.050,-0.212,-1.630,5.6,0.482,-15,-22,8,-8,138.0,63,tags [10] single 0.8px  ref 10
+1792283247.860,8,APPROACH,True,10,[10],-0.049,-0.213,-1.632,5.4,0.485,-16,-23,8,-8,140.0,63,tags [10] single 0.8px  ref 10
+1792283247.910,8,APPROACH,True,10,[10],-0.049,-0.210,-1.639,5.0,0.490,-16,-23,8,0,140.0,63,tags [10] single 0.8px  ref 10
+1792283247.960,8,APPROACH,True,10,[10],-0.050,-0.210,-1.643,4.8,0.493,-16,-23,8,0,138.0,63,tags [10] single 0.8px  ref 10
+1792283248.010,8,APPROACH,True,10,[10],-0.054,-0.212,-1.651,4.5,0.497,-16,-23,8,0,138.0,63,tags [10] single 0.8px  ref 10
+1792283248.060,8,APPROACH,True,10,[10],-0.056,-0.215,-1.656,4.4,0.499,-16,-23,8,0,135.0,63,tags [10] single 0.8px  ref 10
+1792283248.110,8,APPROACH,True,10,[10],-0.064,-0.214,-1.673,4.1,0.509,-16,-22,8,0,135.0,63,tags [10] single 0.7px  ref 10
+1792283248.160,8,APPROACH,True,10,[10],-0.064,-0.214,-1.673,4.1,0.509,-16,-23,8,0,123.0,63,tags [10] single 0.7px  ref 10
+1792283248.210,8,APPROACH,True,10,[10],-0.065,-0.219,-1.686,3.8,0.519,-16,-23,8,0,123.0,63,tags [10] single 0.8px  ref 10
+1792283248.260,8,APPROACH,True,10,[10],-0.067,-0.221,-1.693,3.7,0.524,-16,-23,8,0,112.0,63,tags [10] single 0.8px  ref 10
+1792283248.310,8,APPROACH,True,10,[10],-0.071,-0.216,-1.710,3.6,0.536,-15,-22,8,0,112.0,63,tags [10] single 0.8px  ref 10
+1792283248.361,8,APPROACH,True,10,[10],-0.072,-0.217,-1.718,3.5,0.543,-15,-22,8,0,104.0,63,tags [10] single 0.8px  ref 10
+1792283248.411,8,APPROACH,True,10,[10],-0.076,-0.219,-1.736,3.4,0.556,-15,-22,8,0,104.0,63,tags [10] single 0.8px  ref 10
+1792283248.461,8,APPROACH,True,10,[10],-0.084,-0.221,-1.755,3.4,0.569,-14,-22,8,0,101.0,63,tags [10] single 0.8px  ref 10
+1792283248.511,8,APPROACH,True,10,[10],-0.087,-0.221,-1.765,3.4,0.576,-14,-22,8,0,101.0,63,tags [10] single 0.8px  ref 10
+1792283248.561,8,APPROACH,True,10,[10],-0.093,-0.217,-1.775,3.4,0.583,-14,-21,8,0,99.0,63,tags [10] single 0.8px  ref 10
+1792283248.611,8,APPROACH,True,10,[10],-0.101,-0.213,-1.796,3.4,0.598,-13,-21,8,0,99.0,63,tags [10] single 0.8px  ref 10
+1792283248.661,8,APPROACH,True,10,[10],-0.100,-0.216,-1.806,3.3,0.608,-13,-21,8,0,99.0,63,tags [10] single 0.8px  ref 10
+1792283248.711,8,APPROACH,True,10,[10],-0.112,-0.212,-1.828,3.3,0.623,-13,-20,8,0,99.0,63,tags [10] single 0.8px  ref 10
+1792283248.762,8,APPROACH,True,10,"[8, 10]",-0.140,-0.226,-1.834,4.1,0.618,-12,-19,8,0,98.0,63,"tags [8, 10] joint 1.6px  ref 10"
+1792283248.812,8,APPROACH,True,10,"[8, 10]",-0.175,-0.241,-1.849,4.8,0.622,-11,-18,8,0,98.0,63,"tags [8, 10] joint 1.7px  ref 10"
+1792283248.862,8,APPROACH,True,10,"[8, 10]",-0.198,-0.246,-1.869,5.2,0.635,-11,-17,8,0,98.0,63,"tags [8, 10] joint 1.5px  ref 10"
+1792283248.912,8,APPROACH,True,10,"[8, 10]",-0.206,-0.246,-1.879,5.3,0.643,-11,-16,8,0,98.0,63,"tags [8, 10] joint 1.6px  ref 10"
+1792283248.962,8,APPROACH,True,10,"[8, 10]",-0.215,-0.246,-1.890,5.4,0.652,-10,-16,8,0,98.0,63,"tags [8, 10] joint 1.5px  ref 10"
+1792283249.012,8,APPROACH,True,10,"[8, 10]",-0.230,-0.245,-1.912,5.5,0.671,-10,-15,8,0,98.0,63,"tags [8, 10] joint 1.5px  ref 10"
+1792283249.062,8,APPROACH,True,10,"[8, 10]",-0.237,-0.244,-1.923,5.6,0.680,-9,-15,8,0,98.0,63,"tags [8, 10] joint 1.5px  ref 10"
+1792283249.112,8,APPROACH,True,10,"[8, 10]",-0.257,-0.240,-1.956,5.7,0.710,-8,-13,8,0,98.0,63,"tags [8, 10] joint 1.4px  ref 10"
+1792283249.162,8,APPROACH,True,10,"[8, 10]",-0.257,-0.240,-1.956,5.7,0.710,-9,-14,8,0,99.0,63,"tags [8, 10] joint 1.4px  ref 10"
+1792283249.212,8,APPROACH,True,10,"[8, 10]",-0.270,-0.238,-1.978,5.7,0.730,-8,-13,8,0,99.0,63,"tags [8, 10] joint 1.4px  ref 10"
+1792283249.262,8,APPROACH,True,10,"[8, 10]",-0.276,-0.237,-1.988,5.7,0.740,-8,-13,8,0,103.0,63,"tags [8, 10] joint 1.4px  ref 10"
+1792283249.312,8,APPROACH,True,10,"[8, 10]",-0.288,-0.234,-2.010,5.8,0.760,-7,-12,8,0,103.0,63,"tags [8, 10] joint 1.2px  ref 10"
+1792283249.363,8,APPROACH,True,10,"[8, 10]",-0.294,-0.233,-2.020,5.8,0.770,-5,30,8,0,117.0,63,"tags [8, 10] joint 1.3px  ref 10"
+1792283249.413,8,APPROACH,True,10,"[8, 10]",-0.305,-0.231,-2.041,5.8,0.790,-5,31,8,0,117.0,63,"tags [8, 10] joint 1.2px  ref 10"
+1792283249.463,8,APPROACH,True,10,"[8, 10]",-0.311,-0.230,-2.051,5.8,0.800,-5,32,8,0,129.0,63,"tags [8, 10] joint 1.2px  ref 10"
+1792283249.513,8,APPROACH,True,10,"[8, 10]",-0.322,-0.230,-2.071,5.8,0.819,-4,32,8,8,129.0,63,"tags [8, 10] joint 1.1px  ref 10"
+1792283249.563,8,APPROACH,True,10,"[8, 10]",-0.332,-0.229,-2.091,5.9,0.839,-4,33,8,8,139.0,63,"tags [8, 10] joint 1.2px  ref 10"
+1792283249.613,8,APPROACH,True,10,"[8, 10]",-0.338,-0.229,-2.100,5.9,0.848,-4,34,8,8,139.0,63,"tags [8, 10] joint 1.1px  ref 10"
+1792283249.663,8,APPROACH,True,10,"[8, 10]",-0.350,-0.229,-2.119,5.9,0.867,-4,34,8,8,145.0,63,"tags [8, 10] joint 1.2px  ref 10"
+1792283249.713,8,APPROACH,True,10,"[8, 10]",-0.356,-0.230,-2.128,6.0,0.876,-3,35,9,8,145.0,63,"tags [8, 10] joint 1.1px  ref 10"
+1792283249.764,8,APPROACH,True,10,"[8, 10]",-0.365,-0.230,-2.145,6.0,0.893,-3,35,9,8,145.0,63,"tags [8, 10] joint 1.1px  ref 10"
+1792283249.814,8,APPROACH,True,10,"[8, 10]",-0.369,-0.231,-2.153,6.0,0.901,-3,35,9,8,146.0,63,"tags [8, 10] joint 1.1px  ref 10"
+1792283249.864,8,APPROACH,True,10,"[8, 10]",-0.375,-0.231,-2.160,6.1,0.908,-3,35,9,8,146.0,63,"tags [8, 10] joint 1.1px  ref 10"
+1792283249.914,8,APPROACH,True,10,"[8, 10]",-0.383,-0.231,-2.172,6.1,0.921,-2,35,9,8,147.0,63,"tags [8, 10] joint 1.0px  ref 10"
+1792283249.964,8,APPROACH,True,10,"[8, 10]",-0.389,-0.232,-2.181,6.0,0.930,-2,35,9,8,147.0,63,"tags [8, 10] joint 1.0px  ref 10"
+1792283250.014,8,APPROACH,True,10,"[8, 10]",-0.392,-0.233,-2.185,6.0,0.934,-2,35,9,8,147.0,63,"tags [8, 10] joint 1.0px  ref 10"
+1792283250.064,8,APPROACH,True,10,"[8, 10]",-0.398,-0.233,-2.189,6.0,0.939,-2,35,9,8,147.0,63,"tags [8, 10] joint 1.0px  ref 10"
+1792283250.114,8,APPROACH,True,10,"[8, 10]",-0.404,-0.231,-2.191,6.0,0.940,-2,35,9,8,147.0,63,"tags [8, 10] joint 1.0px  ref 10"
+1792283250.164,8,APPROACH,True,10,"[8, 10]",-0.404,-0.231,-2.191,6.0,0.940,-2,35,9,8,147.0,63,"tags [8, 10] joint 1.0px  ref 10"
+1792283250.214,8,APPROACH,True,10,"[8, 10]",-0.407,-0.229,-2.188,6.0,0.938,-2,35,8,8,147.0,63,"tags [8, 10] joint 1.0px  ref 10"
+1792283250.264,8,APPROACH,True,10,"[8, 10]",-0.411,-0.230,-2.183,6.1,0.933,-1,35,8,8,147.0,63,"tags [8, 10] joint 0.9px  ref 10"
+1792283250.314,8,APPROACH,True,10,"[8, 10]",-0.412,-0.230,-2.180,6.2,0.930,-1,35,8,8,147.0,63,"tags [8, 10] joint 0.9px  ref 10"
+1792283250.364,8,APPROACH,True,10,"[8, 10]",-0.415,-0.231,-2.171,6.3,0.921,-1,35,8,8,147.0,63,"tags [8, 10] joint 0.9px  ref 10"
+1792283250.415,8,APPROACH,True,10,"[8, 10]",-0.416,-0.230,-2.165,6.4,0.916,-1,35,8,8,148.0,63,"tags [8, 10] joint 0.9px  ref 10"
+1792283250.465,8,APPROACH,True,10,"[8, 10]",-0.419,-0.231,-2.152,6.6,0.903,-1,35,8,8,148.0,63,"tags [8, 10] joint 0.9px  ref 10"
+1792283250.515,8,APPROACH,True,10,"[8, 10]",-0.419,-0.232,-2.145,6.7,0.896,-1,35,8,8,147.0,63,"tags [8, 10] joint 0.9px  ref 10"
+1792283250.565,8,APPROACH,True,10,"[8, 10]",-0.419,-0.230,-2.137,6.8,0.888,-1,35,8,8,147.0,63,"tags [8, 10] joint 0.9px  ref 10"
+1792283250.615,8,APPROACH,True,10,"[8, 10]",-0.421,-0.228,-2.120,6.9,0.871,-1,35,8,8,144.0,63,"tags [8, 10] joint 0.9px  ref 10"
+1792283250.665,8,APPROACH,True,10,"[8, 10]",-0.420,-0.228,-2.100,7.0,0.851,-1,34,8,8,144.0,63,"tags [8, 10] joint 1.0px  ref 10"
+1792283250.715,8,APPROACH,True,10,"[8, 10]",-0.420,-0.229,-2.090,7.1,0.841,-1,34,8,8,136.0,63,"tags [8, 10] joint 1.0px  ref 10"
+1792283250.765,8,APPROACH,True,10,"[8, 10]",-0.417,-0.229,-2.067,7.1,0.818,-1,33,8,8,136.0,63,"tags [8, 10] joint 1.0px  ref 10"
+1792283250.815,8,APPROACH,True,10,"[8, 10]",-0.417,-0.227,-2.055,7.2,0.806,-1,32,8,8,112.0,63,"tags [8, 10] joint 1.0px  ref 10"
+1792283250.865,8,APPROACH,True,10,"[8, 10]",-0.415,-0.225,-2.030,7.2,0.781,-1,31,8,8,112.0,63,"tags [8, 10] joint 0.9px  ref 10"
+1792283250.915,8,APPROACH,True,10,"[8, 10]",-0.414,-0.224,-2.017,7.3,0.768,-1,31,8,8,102.0,63,"tags [8, 10] joint 1.0px  ref 10"
+1792283250.966,8,APPROACH,True,10,"[8, 10]",-0.412,-0.222,-1.991,7.3,0.741,-1,30,8,8,100.0,63,"tags [8, 10] joint 1.1px  ref 10"
+1792283251.016,8,APPROACH,True,10,"[8, 10]",-0.411,-0.223,-1.977,7.3,0.727,-1,29,8,8,100.0,63,"tags [8, 10] joint 1.1px  ref 10"
+1792283251.066,8,APPROACH,True,10,"[8, 10]",-0.409,-0.222,-1.949,7.3,0.699,-1,28,8,8,100.0,63,"tags [8, 10] joint 1.1px  ref 10"
+1792283251.116,8,APPROACH,True,10,"[8, 10]",-0.407,-0.222,-1.920,7.4,0.671,-1,27,8,8,100.0,63,"tags [8, 10] joint 1.1px  ref 10"
+1792283251.166,8,APPROACH,True,10,"[8, 10]",-0.404,-0.223,-1.906,7.3,0.656,-1,26,8,8,100.0,63,"tags [8, 10] joint 1.3px  ref 10"
+1792283251.216,8,APPROACH,True,10,"[8, 10]",-0.404,-0.224,-1.892,7.4,0.642,-1,26,8,8,100.0,63,"tags [8, 10] joint 1.2px  ref 10"
+1792283251.266,8,APPROACH,True,10,"[8, 10]",-0.401,-0.226,-1.863,7.4,0.613,-1,24,8,8,100.0,63,"tags [8, 10] joint 1.2px  ref 10"
+1792283251.316,8,APPROACH,True,10,"[8, 10]",-0.400,-0.228,-1.849,7.4,0.599,-1,24,8,8,100.0,63,"tags [8, 10] joint 1.2px  ref 10"
+1792283251.366,8,APPROACH,True,10,"[8, 10]",-0.396,-0.231,-1.820,7.5,0.570,-1,23,8,8,101.0,63,"tags [8, 10] joint 1.2px  ref 10"
+1792283251.416,8,APPROACH,True,10,"[8, 10]",-0.394,-0.232,-1.806,7.5,0.556,-1,22,8,8,101.0,63,"tags [8, 10] joint 1.2px  ref 10"
+1792283251.467,8,APPROACH,True,10,"[8, 10]",-0.392,-0.233,-1.792,7.6,0.541,-1,22,8,8,103.0,63,"tags [8, 10] joint 1.3px  ref 10"
+1792283251.517,8,APPROACH,True,10,"[8, 10]",-0.388,-0.236,-1.764,7.7,0.513,-1,20,8,8,103.0,63,"tags [8, 10] joint 1.3px  ref 10"
+1792283251.567,8,APPROACH,True,10,"[8, 10]",-0.383,-0.242,-1.736,7.9,0.485,-1,19,8,8,111.0,63,"tags [8, 10] joint 1.4px  ref 10"
+1792283251.617,8,APPROACH,True,10,"[8, 10]",-0.381,-0.245,-1.722,8.0,0.471,-1,19,8,8,111.0,63,"tags [8, 10] joint 1.3px  ref 10"
+1792283251.667,8,APPROACH,True,10,"[8, 10]",-0.376,-0.250,-1.694,8.2,0.443,-1,18,8,8,136.0,63,"tags [8, 10] joint 1.4px  ref 10"
+1792283251.717,8,APPROACH,True,10,"[8, 10]",-0.373,-0.255,-1.680,8.3,0.429,-2,17,8,8,136.0,63,"tags [8, 10] joint 1.4px  ref 10"
+1792283251.767,8,APPROACH,True,10,"[8, 10]",-0.368,-0.254,-1.668,8.3,0.416,-2,17,8,8,145.0,63,"tags [8, 10] joint 1.1px  ref 10"
+1792283251.817,8,APPROACH,True,10,[10],-0.366,-0.258,-1.641,8.7,0.389,-2,15,8,8,145.0,63,tags [10] single 0.3px  ref 10
+1792283251.867,8,APPROACH,True,10,[10],-0.361,-0.266,-1.615,8.9,0.363,-2,14,8,8,152.0,63,tags [10] single 0.3px  ref 10
+1792283251.917,8,APPROACH,True,10,[10],-0.359,-0.269,-1.602,9.1,0.350,-2,14,8,8,152.0,63,tags [10] single 0.3px  ref 10
+1792283251.967,8,APPROACH,True,10,[10],-0.355,-0.276,-1.577,9.3,0.325,-2,13,8,8,154.0,63,tags [10] single 0.3px  ref 10
+1792283252.017,8,APPROACH,True,10,[10],-0.352,-0.280,-1.565,9.5,0.313,-2,12,8,0,154.0,63,tags [10] single 0.2px  ref 10
+1792283252.068,8,APPROACH,True,10,[10],-0.346,-0.288,-1.543,9.6,0.291,-2,11,0,0,153.0,63,tags [10] single 0.2px  ref 10
+1792283252.118,8,APPROACH,True,10,[10],-0.340,-0.296,-1.521,9.8,0.269,-2,11,0,0,153.0,63,tags [10] single 0.2px  ref 10
+1792283252.168,8,APPROACH,True,10,[10],-0.340,-0.296,-1.521,9.8,0.269,-2,11,0,0,154.0,63,tags [10] single 0.2px  ref 10
+1792283252.218,8,APPROACH,True,10,[10],-0.336,-0.299,-1.500,10.0,0.248,-2,10,0,0,154.0,63,tags [10] single 0.2px  ref 10
+1792283252.268,8,APPROACH,True,10,[10],-0.332,-0.303,-1.479,10.1,0.228,-2,9,0,0,156.0,63,tags [10] single 0.3px  ref 10
+1792283252.318,8,APPROACH,True,10,[10],-0.331,-0.306,-1.469,10.2,0.218,-2,8,0,0,156.0,63,tags [10] single 0.3px  ref 10
+1792283252.368,8,APPROACH,True,10,[10],-0.326,-0.312,-1.451,10.2,0.200,-2,8,0,0,157.0,63,tags [10] single 0.2px  ref 10
+1792283252.418,8,APPROACH,True,10,[10],-0.325,-0.315,-1.441,10.3,0.191,-2,8,0,0,157.0,63,tags [10] single 0.2px  ref 10
+1792283252.468,8,APPROACH,True,10,[10],-0.322,-0.321,-1.424,10.3,0.174,-3,8,0,0,157.0,63,tags [10] single 0.3px  ref 10
+1792283252.518,8,APPROACH,True,10,[10],-0.320,-0.323,-1.416,10.3,0.167,-3,7,0,0,157.0,63,tags [10] single 0.3px  ref 10
+1792283252.568,8,APPROACH,True,10,[10],-0.316,-0.329,-1.401,10.3,0.153,-3,7,0,0,157.0,63,tags [10] single 0.2px  ref 10
+1792283252.618,8,APPROACH,True,10,[10],-0.314,-0.333,-1.395,10.3,0.147,-3,7,0,0,158.0,63,tags [10] single 0.2px  ref 10
+1792283252.668,8,APPROACH,True,10,[10],-0.310,-0.337,-1.382,10.3,0.136,-4,7,0,0,158.0,63,tags [10] single 0.2px  ref 10
+1792283252.719,8,APPROACH,True,10,[10],-0.308,-0.341,-1.376,10.3,0.131,-4,7,0,0,158.0,63,tags [10] single 0.2px  ref 10
+1792283252.769,8,APPROACH,True,10,[10],-0.303,-0.345,-1.367,10.3,0.124,-4,7,0,0,158.0,63,tags [10] single 0.2px  ref 10
+1792283252.819,8,APPROACH,True,10,[10],-0.302,-0.345,-1.363,10.3,0.121,-4,7,0,0,158.0,63,tags [10] single 0.3px  ref 10
+1792283252.869,8,APPROACH,True,10,[10],-0.299,-0.348,-1.355,10.3,0.115,-5,6,0,0,158.0,63,tags [10] single 0.2px  ref 10
+1792283252.919,8,APPROACH,True,10,[10],-0.297,-0.350,-1.352,10.3,0.113,-5,6,0,0,158.0,63,tags [10] single 0.2px  ref 10
+1792283252.969,8,APPROACH,True,10,[10],-0.292,-0.355,-1.346,10.3,0.110,-5,6,0,0,158.0,63,tags [10] single 0.2px  ref 10
+1792283253.019,8,APPROACH,True,10,[10],-0.290,-0.356,-1.343,10.2,0.109,-5,6,0,0,159.0,63,tags [10] single 0.2px  ref 10
+1792283253.070,8,APPROACH,True,10,[10],-0.286,-0.358,-1.339,10.2,0.108,-6,6,0,0,159.0,63,tags [10] single 0.1px  ref 10
+1792283253.120,8,APPROACH,True,10,[10],-0.282,-0.359,-1.335,10.1,0.108,-6,5,0,0,159.0,63,tags [10] single 0.2px  ref 10
+1792283253.170,8,APPROACH,True,10,[10],-0.279,-0.361,-1.333,10.0,0.108,-6,5,0,0,159.0,63,tags [10] single 0.2px  ref 10
+1792283253.220,8,APPROACH,True,10,[10],-0.278,-0.359,-1.331,10.0,0.107,-6,5,0,0,160.0,63,tags [10] single 0.2px  ref 10
+1792283253.270,8,APPROACH,True,10,[10],-0.276,-0.357,-1.327,10.0,0.105,-7,5,0,0,160.0,63,tags [10] single 0.2px  ref 10
+1792283253.320,8,APPROACH,True,10,[10],-0.275,-0.356,-1.325,10.0,0.104,-7,4,0,0,158.0,63,tags [10] single 0.2px  ref 10
+1792283253.370,8,APPROACH,True,10,[10],-0.274,-0.355,-1.319,10.0,0.101,-7,4,0,0,158.0,63,tags [10] single 0.2px  ref 10
+1792283253.420,8,FACE10,True,10,[10],-0.274,-0.354,-1.316,10.0,0.100,-7,4,0,0,159.0,63,tags [10] single 0.2px  ref 10
+1792283253.470,8,HOLDING,True,10,[10],-0.274,-0.351,-1.311,10.0,0.096,-7,4,0,0,159.0,63,tags [10] single 0.3px  ref 10
+1792283253.520,8,HOLDING,True,10,[10],-0.274,-0.350,-1.307,10.0,0.094,-7,4,0,0,158.0,63,tags [10] single 0.3px  ref 10
+1792283253.571,8,HOLDING,True,10,[10],-0.274,-0.348,-1.302,10.0,0.091,-7,3,0,0,158.0,63,tags [10] single 0.3px  ref 10
+1792283253.621,8,HOLDING,True,10,[10],-0.274,-0.348,-1.299,9.9,0.089,-7,3,0,0,158.0,63,tags [10] single 0.2px  ref 10
+1792283253.671,8,HOLDING,True,10,[10],-0.275,-0.345,-1.293,10.0,0.086,-8,3,0,0,158.0,63,tags [10] single 0.3px  ref 10
+1792283253.721,8,HOLDING,True,10,[10],-0.275,-0.344,-1.291,9.9,0.085,-8,2,0,0,158.0,63,tags [10] single 0.3px  ref 10
+1792283253.771,8,HOLDING,True,10,[10],-0.276,-0.341,-1.287,9.9,0.082,-8,2,0,0,158.0,63,tags [10] single 0.3px  ref 10
+1792283253.821,8,HOLDING,True,10,[10],-0.276,-0.340,-1.285,9.9,0.081,-8,2,0,0,156.0,63,tags [10] single 0.3px  ref 10
+1792283253.871,8,HOLDING,True,10,[10],-0.277,-0.338,-1.282,9.9,0.079,-8,2,0,0,156.0,63,tags [10] single 0.3px  ref 10
+1792283253.921,8,HOLDING,True,10,[10],-0.277,-0.337,-1.281,9.9,0.078,-8,2,0,0,156.0,63,tags [10] single 0.3px  ref 10
+1792283253.971,8,HOLDING,True,10,[10],-0.278,-0.334,-1.279,9.8,0.076,-8,1,0,0,156.0,63,tags [10] single 0.4px  ref 10
+1792283254.022,8,HOLDING,True,10,[10],-0.280,-0.332,-1.277,9.9,0.074,-8,1,0,0,157.0,63,tags [10] single 0.3px  ref 10
+1792283254.072,8,HOLDING,True,10,[10],-0.282,-0.328,-1.276,9.9,0.072,-8,1,0,0,157.0,63,tags [10] single 0.4px  ref 10
+1792283254.122,8,HOLDING,True,10,[10],-0.283,-0.326,-1.274,9.8,0.070,-8,1,0,0,157.0,63,tags [10] single 0.4px  ref 10
+1792283254.172,8,HOLDING,True,10,[10],-0.284,-0.325,-1.273,9.8,0.069,-8,1,0,0,157.0,63,tags [10] single 0.4px  ref 10
+1792283254.222,8,HOLDING,True,10,[10],-0.285,-0.324,-1.272,9.8,0.068,-8,1,0,0,155.0,63,tags [10] single 0.4px  ref 10
+1792283254.272,8,HOLDING,True,10,[10],-0.289,-0.320,-1.271,9.8,0.064,-8,1,0,8,155.0,63,tags [10] single 0.4px  ref 10
+1792283254.322,8,HOLDING,True,10,[10],-0.290,-0.318,-1.270,9.8,0.063,-8,1,0,8,155.0,63,tags [10] single 0.4px  ref 10
+1792283254.372,8,HOLDING,True,10,[10],-0.293,-0.314,-1.269,9.8,0.059,-8,1,0,8,155.0,63,tags [10] single 0.4px  ref 10
+1792283254.422,8,HOLDING,True,10,[10],-0.295,-0.312,-1.268,9.8,0.058,-8,1,0,8,156.0,63,tags [10] single 0.5px  ref 10
+1792283254.472,8,HOLDING,True,10,[10],-0.298,-0.310,-1.266,9.9,0.054,-8,1,0,8,156.0,63,tags [10] single 0.4px  ref 10
+1792283254.522,8,HOLDING,True,10,[10],-0.300,-0.309,-1.266,9.9,0.052,-8,1,0,8,155.0,63,tags [10] single 0.5px  ref 10
+1792283254.572,8,HOLDING,True,10,[10],-0.303,-0.306,-1.265,9.9,0.049,-8,1,0,8,155.0,63,tags [10] single 0.5px  ref 10
+1792283254.623,8,HOLDING,True,10,[10],-0.305,-0.305,-1.264,9.9,0.047,-8,1,0,8,155.0,63,tags [10] single 0.5px  ref 10
+1792283254.673,8,HOLDING,True,10,[10],-0.309,-0.303,-1.264,9.9,0.042,-8,1,0,8,155.0,63,tags [10] single 0.5px  ref 10
+1792283254.723,8,HOLDING,True,10,[10],-0.315,-0.300,-1.263,10.0,0.037,-8,1,0,8,155.0,63,tags [10] single 0.5px  ref 10
+1792283254.773,8,HOLDING,True,10,[10],-0.317,-0.299,-1.263,10.0,0.035,-8,1,0,8,155.0,63,tags [10] single 0.5px  ref 10
+1792283254.823,8,HOLDING,True,10,[10],-0.319,-0.299,-1.263,10.0,0.033,-8,1,0,8,155.0,63,tags [10] single 0.6px  ref 10
+1792283254.873,8,HOLDING,True,10,[10],-0.324,-0.298,-1.263,10.0,0.028,-8,2,0,8,155.0,63,tags [10] single 0.5px  ref 10
+1792283254.923,8,HOLDING,True,10,[10],-0.327,-0.297,-1.263,10.0,0.026,-8,2,0,8,155.0,63,tags [10] single 0.6px  ref 10
+1792283254.973,8,HOLDING,True,10,[10],-0.332,-0.296,-1.263,10.1,0.021,-7,3,0,8,155.0,63,tags [10] single 0.6px  ref 10
+1792283255.023,8,HOLDING,True,10,[10],-0.335,-0.296,-1.264,10.1,0.019,-7,4,0,8,155.0,63,tags [10] single 0.6px  ref 10
+1792283255.073,8,HOLDING,True,10,[10],-0.340,-0.296,-1.264,10.1,0.015,-6,5,0,8,155.0,63,tags [10] single 0.6px  ref 10
+1792283255.123,8,HOLDING,True,10,[10],-0.346,-0.296,-1.264,10.1,0.013,-4,7,0,8,155.0,63,tags [10] single 0.6px  ref 10
+1792283255.174,8,HOLDING,True,10,[10],-0.349,-0.297,-1.264,10.2,0.012,0,0,0,8,155.0,63,tags [10] single 0.6px  ref 10
+1792283255.224,8,HOLDING,True,10,[10],-0.355,-0.297,-1.265,10.2,0.014,1,8,0,8,155.0,63,tags [10] single 0.6px  ref 10
+1792283255.274,8,HOLDING,True,10,[10],-0.358,-0.298,-1.265,10.2,0.016,3,7,0,8,155.0,63,tags [10] single 0.6px  ref 10
+1792283255.324,8,HOLDING,True,10,[10],-0.364,-0.298,-1.267,10.2,0.020,4,7,0,8,156.0,63,tags [10] single 0.6px  ref 10
+1792283255.374,8,HOLDING,True,10,[10],-0.368,-0.298,-1.267,10.2,0.023,5,6,0,8,156.0,63,tags [10] single 0.7px  ref 10
+1792283255.424,8,HOLDING,True,10,[10],-0.374,-0.299,-1.268,10.3,0.029,6,6,0,8,156.0,63,tags [10] single 0.6px  ref 10
+1792283255.474,8,HOLDING,True,10,[10],-0.377,-0.300,-1.269,10.3,0.032,6,5,0,8,156.0,63,tags [10] single 0.6px  ref 10
+1792283255.524,8,HOLDING,True,10,[10],-0.383,-0.300,-1.270,10.3,0.038,6,5,0,8,156.0,63,tags [10] single 0.6px  ref 10
+1792283255.574,8,HOLDING,True,10,[10],-0.386,-0.301,-1.271,10.3,0.041,6,5,0,8,156.0,63,tags [10] single 0.6px  ref 10
+1792283255.624,8,HOLDING,True,10,[10],-0.389,-0.301,-1.271,10.4,0.044,6,5,0,8,156.0,63,tags [10] single 0.6px  ref 10
+1792283255.674,8,HOLDING,True,10,[10],-0.395,-0.302,-1.272,10.4,0.049,7,5,0,8,156.0,63,tags [10] single 0.6px  ref 10
+1792283255.724,8,HOLDING,True,10,[10],-0.400,-0.304,-1.273,10.4,0.055,7,4,0,8,156.0,63,tags [10] single 0.6px  ref 10
+1792283255.774,8,HOLDING,True,10,[10],-0.403,-0.305,-1.274,10.4,0.057,7,4,0,8,156.0,63,tags [10] single 0.6px  ref 10
+1792283255.825,8,HOLDING,True,10,[10],-0.407,-0.306,-1.275,10.4,0.062,7,4,0,8,157.0,63,tags [10] single 0.6px  ref 10
+1792283255.875,8,HOLDING,True,10,[10],-0.410,-0.306,-1.275,10.5,0.064,7,4,0,8,157.0,63,tags [10] single 0.6px  ref 10
+1792283255.925,8,HOLDING,True,10,[10],-0.412,-0.307,-1.275,10.5,0.066,7,4,0,8,156.0,63,tags [10] single 0.6px  ref 10
+1792283255.975,8,HOLDING,True,10,[10],-0.416,-0.308,-1.276,10.5,0.070,7,4,0,8,156.0,63,tags [10] single 0.5px  ref 10
+1792283256.025,8,HOLDING,True,10,[10],-0.419,-0.309,-1.277,10.5,0.074,7,4,0,8,156.0,63,tags [10] single 0.5px  ref 10
+1792283256.075,8,HOLDING,True,10,[10],-0.420,-0.310,-1.278,10.5,0.075,7,4,0,8,156.0,63,tags [10] single 0.5px  ref 10
+1792283256.125,8,HOLDING,True,10,[10],-0.423,-0.311,-1.279,10.5,0.077,7,4,0,8,156.0,63,tags [10] single 0.5px  ref 10
+1792283256.175,8,HOLDING,True,10,[10],-0.423,-0.311,-1.280,10.5,0.078,7,4,0,8,156.0,63,tags [10] single 0.5px  ref 10
+1792283256.225,8,HOLDING,True,10,[10],-0.423,-0.311,-1.281,10.5,0.079,7,4,0,8,156.0,63,tags [10] single 0.5px  ref 10
+1792283256.275,8,HOLDING,True,10,[10],-0.424,-0.312,-1.282,10.5,0.080,7,4,0,8,156.0,63,tags [10] single 0.5px  ref 10
+1792283256.325,8,HOLDING,True,10,[10],-0.425,-0.311,-1.284,10.5,0.081,7,4,0,8,155.0,63,tags [10] single 0.5px  ref 10
+1792283256.375,8,HOLDING,True,10,[10],-0.425,-0.312,-1.285,10.5,0.082,7,5,0,8,155.0,61,tags [10] single 0.4px  ref 10
+1792283256.426,8,HOLDING,True,10,[10],-0.424,-0.311,-1.288,10.5,0.082,6,5,0,8,156.0,61,tags [10] single 0.4px  ref 10
+1792283256.476,8,HOLDING,True,10,[10],-0.424,-0.311,-1.288,10.5,0.083,6,5,0,8,156.0,61,tags [10] single 0.4px  ref 10
+1792283256.526,8,HOLDING,True,10,[10],-0.424,-0.310,-1.290,10.5,0.083,6,5,0,8,155.0,61,tags [10] single 0.4px  ref 10
+1792283256.576,8,HOLDING,True,10,[10],-0.424,-0.310,-1.290,10.5,0.083,6,5,0,8,155.0,61,tags [10] single 0.4px  ref 10
+1792283256.626,8,HOLDING,True,10,[10],-0.424,-0.309,-1.291,10.5,0.084,6,5,0,8,156.0,61,tags [10] single 0.4px  ref 10
+1792283256.676,8,HOLDING,True,10,[10],-0.421,-0.309,-1.294,10.5,0.083,6,5,0,8,156.0,61,tags [10] single 0.3px  ref 10
+1792283256.726,8,HOLDING,True,10,[10],-0.420,-0.309,-1.295,10.5,0.082,6,5,0,8,154.0,61,tags [10] single 0.3px  ref 10
+1792283256.776,8,HOLDING,True,10,[10],-0.418,-0.308,-1.297,10.6,0.082,6,6,0,8,154.0,61,tags [10] single 0.4px  ref 10
+1792283256.826,8,HOLDING,True,10,[10],-0.416,-0.306,-1.299,10.8,0.082,6,6,0,8,154.0,61,tags [10] single 0.4px  ref 10
+1792283256.876,8,HOLDING,True,10,[10],-0.415,-0.305,-1.301,10.8,0.081,5,6,0,8,154.0,61,tags [10] single 0.3px  ref 10
+1792283256.926,8,HOLDING,True,10,[10],-0.413,-0.304,-1.302,11.0,0.080,5,6,0,8,155.0,61,tags [10] single 0.4px  ref 10
+1792283256.977,8,HOLDING,True,10,[10],-0.411,-0.304,-1.303,11.1,0.079,5,6,0,8,155.0,61,tags [10] single 0.4px  ref 10
+1792283257.027,8,HOLDING,True,10,[10],-0.409,-0.304,-1.304,11.1,0.079,5,6,0,8,155.0,61,tags [10] single 0.3px  ref 10
+1792283257.077,8,HOLDING,True,10,[10],-0.405,-0.304,-1.306,11.3,0.077,4,7,0,8,155.0,61,tags [10] single 0.3px  ref 10
+1792283257.127,8,HOLDING,True,10,[10],-0.402,-0.303,-1.308,11.5,0.076,4,7,0,8,155.0,61,tags [10] single 0.3px  ref 10
+1792283257.177,8,HOLDING,True,10,[10],-0.400,-0.303,-1.309,11.6,0.075,4,7,0,8,155.0,61,tags [10] single 0.3px  ref 10
+1792283257.227,8,HOLDING,True,10,[10],-0.396,-0.303,-1.310,11.8,0.074,4,7,0,8,155.0,61,tags [10] single 0.3px  ref 10
+1792283257.277,8,HOLDING,True,10,[10],-0.395,-0.304,-1.310,11.9,0.073,3,7,0,8,155.0,61,tags [10] single 0.3px  ref 10
+1792283257.327,8,HOLDING,True,10,[10],-0.391,-0.305,-1.311,12.2,0.072,3,7,0,8,155.0,61,tags [10] single 0.3px  ref 10
+1792283257.377,8,HOLDING,True,10,[10],-0.390,-0.305,-1.311,12.3,0.071,3,7,0,8,155.0,61,tags [10] single 0.3px  ref 10
+1792283257.427,8,HOLDING,True,10,[10],-0.387,-0.306,-1.312,12.4,0.071,3,8,0,8,156.0,61,tags [10] single 0.3px  ref 10
+1792283257.477,8,HOLDING,True,10,[10],-0.383,-0.310,-1.313,12.6,0.069,2,8,0,8,156.0,61,tags [10] single 0.3px  ref 10
+1792283257.527,8,HOLDING,True,10,[10],-0.379,-0.313,-1.314,12.9,0.069,2,8,0,0,156.0,61,tags [10] single 0.3px  ref 10
+1792283257.577,8,HOLDING,True,10,[10],-0.376,-0.314,-1.315,13.0,0.068,1,8,0,0,156.0,61,tags [10] single 0.3px  ref 10
+1792283257.628,8,HOLDING,True,10,[10],-0.372,-0.317,-1.316,13.2,0.068,1,8,0,0,156.0,61,tags [10] single 0.3px  ref 10
+1792283257.678,8,HOLDING,True,10,[10],-0.371,-0.317,-1.316,13.4,0.068,1,8,0,0,156.0,61,tags [10] single 0.3px  ref 10
+1792283257.728,8,HOLDING,True,10,[10],-0.367,-0.321,-1.317,13.6,0.067,0,8,0,0,157.0,61,tags [10] single 0.2px  ref 10
+1792283257.778,8,HOLDING,True,10,[10],-0.365,-0.322,-1.317,13.7,0.067,0,8,0,0,157.0,61,tags [10] single 0.2px  ref 10
+1792283257.828,8,HOLDING,True,10,[10],-0.361,-0.326,-1.318,13.7,0.067,-1,8,0,0,157.0,61,tags [10] single 0.2px  ref 10
+1792283257.878,8,HOLDING,True,10,[10],-0.359,-0.327,-1.318,13.8,0.067,-1,8,0,0,157.0,61,tags [10] single 0.2px  ref 10
+1792283257.928,8,HOLDING,True,10,[10],-0.355,-0.329,-1.320,13.8,0.068,-1,8,0,0,157.0,61,tags [10] single 0.2px  ref 10
+1792283257.978,8,HOLDING,True,10,[10],-0.355,-0.329,-1.319,13.9,0.067,-1,8,0,0,157.0,61,tags [10] single 0.3px  ref 10
+1792283258.028,8,HOLDING,True,10,[10],-0.351,-0.332,-1.320,13.8,0.068,-2,8,0,0,157.0,61,tags [10] single 0.2px  ref 10
+1792283258.078,8,HOLDING,True,10,[10],-0.350,-0.333,-1.321,13.8,0.069,-2,8,0,0,157.0,61,tags [10] single 0.2px  ref 10
+1792283258.128,8,HOLDING,True,10,[10],-0.347,-0.335,-1.321,13.9,0.069,-2,8,0,0,157.0,61,tags [10] single 0.2px  ref 10
+1792283258.178,8,HOLDING,True,10,[10],-0.347,-0.335,-1.321,13.9,0.069,-2,8,0,0,157.0,61,tags [10] single 0.2px  ref 10
+1792283258.229,8,HOLDING,True,10,[10],-0.347,-0.335,-1.321,13.9,0.069,-2,8,0,0,157.0,61,tags [10] single 0.2px  ref 10
+1792283258.279,8,HOLDING,True,10,[10],-0.347,-0.335,-1.321,13.9,0.069,-2,8,0,0,157.0,61,tags [10] single 0.2px  ref 10
+1792283258.329,8,HOLDING,True,10,[10],-0.347,-0.335,-1.321,13.9,0.069,-2,8,0,0,157.0,61,tags [10] single 0.2px  ref 10
+1792283258.379,8,HOLDING,True,10,[10],-0.340,-0.340,-1.321,13.9,0.070,-3,7,0,0,157.0,61,tags [10] single 0.2px  ref 10
+1792283258.429,8,HOLDING,True,10,[10],-0.339,-0.343,-1.321,13.9,0.070,-3,7,0,0,158.0,61,tags [10] single 0.2px  ref 10
+1792283258.479,8,HOLDING,True,10,[10],-0.338,-0.344,-1.321,13.9,0.070,-3,7,0,0,158.0,61,tags [10] single 0.2px  ref 10
+1792283258.529,8,HOLDING,True,10,[10],-0.337,-0.345,-1.321,13.9,0.070,-3,7,0,0,158.0,61,tags [10] single 0.2px  ref 10
+1792283258.579,8,HOLDING,True,10,[10],-0.336,-0.346,-1.321,13.8,0.071,-3,7,0,0,159.0,61,tags [10] single 0.2px  ref 10
+1792283258.629,8,HOLDING,True,10,[10],-0.333,-0.348,-1.321,13.8,0.071,-4,7,0,0,159.0,61,tags [10] single 0.2px  ref 10
+1792283258.679,8,HOLDING,True,10,[10],-0.333,-0.348,-1.321,13.8,0.071,-4,7,0,0,158.0,61,tags [10] single 0.2px  ref 10
+1792283258.729,8,HOLDING,True,10,[10],-0.332,-0.351,-1.319,13.8,0.069,-4,7,0,0,158.0,61,tags [10] single 0.2px  ref 10
+1792283258.780,8,HOLDING,True,10,[10],-0.332,-0.351,-1.319,13.8,0.069,-4,7,0,0,159.0,61,tags [10] single 0.2px  ref 10
+1792283258.830,8,HOLDING,True,10,[10],-0.332,-0.353,-1.315,13.9,0.066,-4,7,0,0,159.0,61,tags [10] single 0.3px  ref 10
+1792283258.880,8,HOLDING,True,10,[10],-0.332,-0.354,-1.314,13.9,0.065,-4,7,0,0,159.0,61,tags [10] single 0.2px  ref 10
+1792283258.930,8,HOLDING,True,10,[10],-0.332,-0.355,-1.313,13.9,0.064,-4,7,0,0,159.0,61,tags [10] single 0.2px  ref 10
+1792283258.980,8,HOLDING,True,10,[10],-0.331,-0.356,-1.313,13.9,0.064,-4,7,-8,0,159.0,61,tags [10] single 0.2px  ref 10
+1792283259.030,8,HOLDING,True,10,[10],-0.331,-0.358,-1.312,14.0,0.063,-4,7,-8,0,160.0,61,tags [10] single 0.2px  ref 10
+1792283259.080,8,HOLDING,True,10,[10],-0.330,-0.361,-1.313,14.0,0.064,-4,7,-8,0,160.0,61,tags [10] single 0.2px  ref 10
+1792283259.130,8,HOLDING,True,10,[10],-0.330,-0.361,-1.313,14.0,0.064,-4,7,-8,0,160.0,61,tags [10] single 0.2px  ref 10
+1792283259.180,8,HOLDING,True,10,[10],-0.330,-0.361,-1.313,14.0,0.064,-4,7,-8,0,160.0,61,tags [10] single 0.2px  ref 10
+1792283259.230,8,HOLDING,True,10,[10],-0.330,-0.363,-1.314,14.0,0.065,-4,7,-8,0,160.0,61,tags [10] single 0.3px  ref 10
+1792283259.281,8,HOLDING,True,10,[10],-0.330,-0.363,-1.314,14.0,0.065,-4,7,-8,0,159.0,61,tags [10] single 0.3px  ref 10
+1792283259.331,8,HOLDING,True,10,[10],-0.328,-0.368,-1.316,14.1,0.068,-4,7,-8,0,162.0,61,tags [10] single 0.3px  ref 10
+1792283259.381,8,HOLDING,True,10,[10],-0.323,-0.382,-1.323,14.1,0.076,-5,7,-8,0,162.0,61,tags [10] single 0.2px  ref 10
+1792283259.431,8,HOLDING,True,10,[10],-0.322,-0.384,-1.324,14.1,0.077,-5,7,-8,0,162.0,61,tags [10] single 0.2px  ref 10
+1792283259.481,8,HOLDING,True,10,[10],-0.320,-0.389,-1.326,14.1,0.080,-5,6,-8,0,162.0,61,tags [10] single 0.2px  ref 10
